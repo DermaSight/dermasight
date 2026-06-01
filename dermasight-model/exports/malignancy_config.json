@@ -1,0 +1,33 @@
+{
+  "malignancy_score": {
+    "Basal_Cell_Carcinoma": 0.7,
+    "Melanocytic_Nevi": 0.1,
+    "Melanoma": 0.9
+  },
+  "severity_thresholds": {
+    "Mild": [
+      0.0,
+      0.15
+    ],
+    "Moderate": [
+      0.15,
+      0.4
+    ],
+    "Severe": [
+      0.4,
+      1.0
+    ]
+  },
+  "gradcam_layers": {
+    "EfficientNetV2S": "top_conv",
+    "EfficientNetV2B0": "top_conv",
+    "DenseNet201": "conv5_block32_2_conv",
+    "DenseNet121": "conv5_block16_2_conv"
+  },
+  "img_size": 224,
+  "severity_formula": {
+    "gradcam_area": 0.5,
+    "malignancy": 0.3,
+    "site_risk": 0.2
+  }
+}

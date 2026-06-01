@@ -1,0 +1,18 @@
+model Article {
+  id           String   @id @default(cuid())
+  title        String
+  slug         String   @unique
+  tags         String[]
+  content      String
+  image        String?
+  timeToRead   Int
+  authorName   String
+  authorTitle  String?
+  authorImage  String?
+  userId       String?
+  user         User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@schema("dermasight")
+}

@@ -1,0 +1,26 @@
+model Prediction {
+  id              String   @id @default(cuid())
+  userId          String?  // Optional for unauthenticated predictions
+  user            User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  // File storage
+  imageUrl        String   // R2 URL
+
+  // ML Prediction Results (8 key fields)
+  predicted_class String   // e.g., "Melanoma", "Basal_Cell_Carcinoma"
+  severity_label  String   // e.g., "Severe", "Moderate"
+  confidence      Float    // 0-100 percentage
+  combined_score  Float    // 0-1 combined severity score
+  malignancy_score Float   // 0-1 malignancy risk
+  site_risk_score Float    // 0-1 site-specific risk
+  area_pct        Float    // 0-100 affected area percentage
+  inference_time_ms Float  // milliseconds
+  groq_analysis   Json?    // Optional LLM analysis from Groq
+
+  // Metadata
+  anatomical_site String   // enum of 9 sites
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@schema("dermasight")
+}

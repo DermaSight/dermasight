@@ -1,0 +1,50 @@
+{
+    "name": "dermasight-backend",
+    "module": "src/index.ts",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "bun run --watch .",
+        "db:generate": "prisma generate",
+        "db:migrate": "prisma migrate dev --schema=prisma/schema",
+        "format": "prettier --write .",
+        "token:keygen": "bun run src/utils/genkey.ts",
+        "test": "bun test",
+        "test:watch": "bun test --watch"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "@types/cookie-parser": "^1.4.10",
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.6",
+        "@types/morgan": "^1.9.10",
+        "@types/multer": "^2.1.0",
+        "@types/nodemailer": "^8.0.0",
+        "@types/pg": "^8.20.0",
+        "bun-types": "^1.3.14",
+        "prettier": "^3.8.3"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.1053.0",
+        "@aws-sdk/s3-request-presigner": "^3.1054.0",
+        "@prisma/adapter-pg": "^7.8.0",
+        "@prisma/client": "^7.8.0",
+        "axios": "^1.16.1",
+        "cookie-parser": "^1.4.7",
+        "cors": "^2.8.6",
+        "dotenv": "^17.4.2",
+        "express": "^5.2.1",
+        "helmet": "^8.1.0",
+        "morgan": "^1.10.1",
+        "multer": "^2.1.1",
+        "nodemailer": "^8.0.10",
+        "paseto-ts": "^2.0.6",
+        "pg": "^8.21.0",
+        "prisma": "^7.8.0",
+        "winston": "^3.19.0",
+        "zod": "^4.4.3"
+    }
+}

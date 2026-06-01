@@ -1,0 +1,6 @@
+model TokenBlacklist {
+  jti       String   @id
+  expiresAt DateTime
+
+  @@schema("dermasight")
+}

@@ -1,0 +1,21 @@
+enum UserRole {
+  MEMBER
+  ADMIN
+
+  @@schema("dermasight")
+}
+
+model User {
+  id             String         @id @default(cuid())
+  email          String         @unique
+  name           String?
+  password       String
+  role           UserRole       @default(MEMBER)
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+  refreshTokens  RefreshToken[]
+  articles       Article[]
+  predictions    Prediction[]
+
+  @@schema("dermasight")
+}

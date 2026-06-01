@@ -1,0 +1,11 @@
+.git
+.gitignore
+node_modules
+tests
+docs
+graphify-out
+.env
+.env.*
+*.md
+AGENTS.md
+.opencode

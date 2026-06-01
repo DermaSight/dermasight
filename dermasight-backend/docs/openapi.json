@@ -1,0 +1,1249 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "Dermasight Backend API",
+        "description": "REST API for Dermasight. Authentication via Paseto v4 local (XChaCha20 encrypted) tokens. Access tokens in `Authorization: Bearer` header, refresh tokens in httpOnly signed cookie.",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://127.0.0.1:5000/api",
+            "description": "Local development"
+        }
+    ],
+    "paths": {
+        "/health": {
+            "get": {
+                "summary": "Check System Health",
+                "description": "Returns system health status. Probes database connectivity.",
+                "tags": ["Health"],
+                "operationId": "checkSystemHealth",
+                "responses": {
+                    "200": {
+                        "description": "System is healthy",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Health"
+                                }
+                            }
+                        }
+                    },
+                    "503": {
+                        "description": "System is unhealthy (database unreachable)",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Health"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/auth/register": {
+            "post": {
+                "summary": "Create a New Account",
+                "description": "Creates a user account with email and password. Returns user object and access token. Sets httpOnly refresh token cookie.",
+                "tags": ["Auth"],
+                "operationId": "createUserAccount",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/RegisterPayload"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Account created successfully",
+                        "headers": {
+                            "Set-Cookie": {
+                                "description": "httpOnly signed refresh token cookie (`refreshToken`)",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/AuthResponse"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Validation error or email already in use",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/auth/login": {
+            "post": {
+                "summary": "Authenticate User",
+                "description": "Authenticates with email and password. Returns user object and access token. Sets httpOnly refresh token cookie.",
+                "tags": ["Auth"],
+                "operationId": "authenticateUser",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/LoginPayload"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Logged in successfully",
+                        "headers": {
+                            "Set-Cookie": {
+                                "description": "httpOnly signed refresh token cookie (`refreshToken`)",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/AuthResponse"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Validation error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Invalid email or password",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/auth/refresh": {
+            "post": {
+                "summary": "Rotate Access Token",
+                "description": "Rotates the refresh token and issues a new access token. Reads `refreshToken` from signed cookie. Old refresh token is deleted and a new one is set.",
+                "tags": ["Auth"],
+                "operationId": "rotateAccessToken",
+                "parameters": [
+                    {
+                        "name": "refreshToken",
+                        "in": "cookie",
+                        "description": "Signed `refreshToken` cookie (httpOnly)",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Token refreshed",
+                        "headers": {
+                            "Set-Cookie": {
+                                "description": "New httpOnly signed refresh token cookie",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/AccessTokenResponse"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Missing, invalid, revoked, or expired refresh token",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/auth/logout": {
+            "post": {
+                "summary": "Terminate Session",
+                "description": "Blacklists the access token (if provided), deletes the refresh token from database (if cookie present), and clears the refresh cookie.",
+                "tags": ["Auth"],
+                "operationId": "terminateUserSession",
+                "parameters": [
+                    {
+                        "name": "Authorization",
+                        "in": "header",
+                        "description": "Bearer access token (optional — will be blacklisted if provided)",
+                        "required": false,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Logged out",
+                        "headers": {
+                            "Set-Cookie": {
+                                "description": "Clears refreshToken cookie",
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Empty"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/auth/me": {
+            "get": {
+                "summary": "Get Authenticated User Profile",
+                "description": "Returns the authenticated user's profile from the Bearer token.",
+                "tags": ["Auth"],
+                "operationId": "getCurrentUser",
+                "security": [
+                    {
+                        "BearerAuth": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Authenticated user profile",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/MeResponse"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Missing, expired, invalid, or revoked token",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/articles": {
+            "get": {
+                "summary": "List all articles",
+                "description": "Returns all articles ordered by most recent first.",
+                "tags": ["Articles"],
+                "operationId": "articlesList",
+                "responses": {
+                    "200": {
+                        "description": "List of articles",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/ArticleList"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "summary": "Create an article",
+                "description": "Creates a new article. Slug is auto-generated from the title.",
+                "tags": ["Articles"],
+                "operationId": "articlesCreate",
+                "security": [
+                    {
+                        "BearerAuth": []
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "image": {
+                                        "type": "string",
+                                        "format": "binary",
+                                        "description": "Article banner image (JPEG or PNG, max 10MB)"
+                                    },
+                                    "title": {
+                                        "type": "string",
+                                        "description": "Article title"
+                                    },
+                                    "tags": {
+                                        "type": "string",
+                                        "description": "JSON array string or comma-separated tags (e.g. \"[\\\"dermatology\\\"]\" or \"dermatology,skin\")"
+                                    },
+                                    "content": {
+                                        "type": "string",
+                                        "description": "Article body content"
+                                    },
+                                    "timeToRead": {
+                                        "type": "string",
+                                        "description": "Estimated reading time in minutes (integer as string for multipart)"
+                                    },
+                                    "authorName": {
+                                        "type": "string",
+                                        "description": "Author display name"
+                                    },
+                                    "authorTitle": {
+                                        "type": "string",
+                                        "description": "Author title/credentials"
+                                    },
+                                    "authorImage": {
+                                        "type": "string",
+                                        "format": "binary",
+                                        "description": "Author profile image (JPEG or PNG, max 10MB)"
+                                    }
+                                },
+                                "required": ["title", "tags", "content", "timeToRead", "authorName"]
+                            }
+                        },
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/CreateArticlePayload"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Article created",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/ArticleResponse"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Validation error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Not authenticated",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    },
+                    "403": {
+                        "description": "Insufficient permissions (MEMBER role)",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/articles/{slug}": {
+            "get": {
+                "summary": "Get an article by slug",
+                "description": "Returns a single article identified by its URL-friendly slug.",
+                "tags": ["Articles"],
+                "operationId": "articlesGet",
+                "parameters": [
+                    {
+                        "name": "slug",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "description": "URL-friendly article slug"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Article found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/ArticleResponse"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Article not found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "summary": "Update an article",
+                "description": "Updates an existing article by slug. All fields are optional.",
+                "tags": ["Articles"],
+                "operationId": "articlesUpdate",
+                "security": [
+                    {
+                        "BearerAuth": []
+                    }
+                ],
+                "parameters": [
+                    {
+                        "name": "slug",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "description": "URL-friendly article slug"
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "image": {
+                                        "type": "string",
+                                        "format": "binary",
+                                        "description": "Article banner image (JPEG or PNG, max 10MB)"
+                                    },
+                                    "title": { "type": "string" },
+                                    "tags": {
+                                        "type": "string",
+                                        "description": "JSON array string or comma-separated tags"
+                                    },
+                                    "content": { "type": "string" },
+                                    "timeToRead": {
+                                        "type": "string",
+                                        "description": "Reading time in minutes (integer as string for multipart)"
+                                    },
+                                    "authorName": { "type": "string" },
+                                    "authorTitle": { "type": "string" },
+                                    "authorImage": {
+                                        "type": "string",
+                                        "format": "binary",
+                                        "description": "Author profile image (JPEG or PNG, max 10MB)"
+                                    }
+                                }
+                            }
+                        },
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/UpdateArticlePayload"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Article updated",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/ArticleResponse"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Validation error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Not authenticated",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    },
+                    "403": {
+                        "description": "Insufficient permissions (MEMBER role)",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Article not found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "summary": "Delete an article",
+                "description": "Permanently removes an article by slug.",
+                "tags": ["Articles"],
+                "operationId": "articlesDelete",
+                "security": [
+                    {
+                        "BearerAuth": []
+                    }
+                ],
+                "parameters": [
+                    {
+                        "name": "slug",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "description": "URL-friendly article slug"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Article deleted",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Empty"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Not authenticated",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    },
+                    "403": {
+                        "description": "Insufficient permissions (MEMBER role)",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Article not found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/predict": {
+            "post": {
+                "summary": "Analyze Skin Lesion Image",
+                "description": "Analyzes a skin lesion image and returns severity predictions. Optional authentication stores prediction in history.",
+                "tags": ["Predictions"],
+                "operationId": "analyzeSkinLesion",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "file": {
+                                        "type": "string",
+                                        "format": "binary",
+                                        "description": "Skin lesion image file (JPEG, PNG, or WebP, max 10MB)"
+                                    },
+                                    "anatomical_site": {
+                                        "type": "string",
+                                        "enum": [
+                                            "head/neck",
+                                            "torso",
+                                            "upper extremity",
+                                            "lower extremity",
+                                            "palms/soles",
+                                            "oral/genital",
+                                            "anterior torso",
+                                            "posterior torso",
+                                            "lateral torso"
+                                        ],
+                                        "description": "Anatomical location of the lesion"
+                                    }
+                                },
+                                "required": ["file", "anatomical_site"]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Prediction successful",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/PredictionResponse"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Validation error (missing file or invalid anatomical_site)",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    },
+                    "503": {
+                        "description": "ML Service unavailable",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/predict/history": {
+            "get": {
+                "summary": "List Past Predictions",
+                "description": "Retrieves authenticated user's past predictions with pagination",
+                "tags": ["Predictions"],
+                "operationId": "listUserPredictions",
+                "security": [
+                    {
+                        "BearerAuth": []
+                    }
+                ],
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Number of predictions to return (default 10, max 100)",
+                        "schema": {
+                            "type": "integer",
+                            "default": 10,
+                            "minimum": 1,
+                            "maximum": 100
+                        }
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "Number of predictions to skip (default 0)",
+                        "schema": {
+                            "type": "integer",
+                            "default": 0,
+                            "minimum": 0
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Prediction history retrieved",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/PredictionHistoryResponse"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "Not authenticated",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/contact-us": {
+            "post": {
+                "summary": "Send Contact Form Message",
+                "description": "Sends a contact form message via SMTP to configured recipients. No authentication required.",
+                "tags": ["Contact"],
+                "operationId": "sendContactMessage",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ContactRequest"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Message sent successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/ContactResponse"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Validation error (missing/invalid subject or content)",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Failed to send message (SMTP error)",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/responses/Error"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "BearerAuth": {
+                "type": "http",
+                "scheme": "bearer",
+                "bearerFormat": "Paseto",
+                "description": "Paseto v4 local encrypted access token. Valid for 1 hour."
+            }
+        },
+        "schemas": {
+            "SuccessStatus": {
+                "type": "string",
+                "enum": ["success"],
+                "description": "Indicates a successful response (HTTP code < 400)"
+            },
+            "FailedStatus": {
+                "type": "string",
+                "enum": ["failed"],
+                "description": "Indicates a failed response (HTTP code >= 400)"
+            },
+            "UserRole": {
+                "type": "string",
+                "enum": ["MEMBER", "ADMIN"],
+                "description": "User role for access control"
+            },
+            "User": {
+                "type": "object",
+                "properties": {
+                    "id": { "type": "string", "description": "Unique user ID (cuid)" },
+                    "email": { "type": "string", "format": "email" },
+                    "name": { "type": "string", "nullable": true },
+                    "role": { "$ref": "#/components/schemas/UserRole" },
+                    "createdAt": { "type": "string", "format": "date-time" },
+                    "updatedAt": { "type": "string", "format": "date-time" }
+                },
+                "required": ["id", "email", "role", "createdAt", "updatedAt"]
+            },
+            "Article": {
+                "type": "object",
+                "properties": {
+                    "id": { "type": "string", "description": "Unique article ID (cuid)" },
+                    "title": { "type": "string" },
+                    "slug": { "type": "string", "description": "URL-friendly unique slug" },
+                    "tags": {
+                        "type": "array",
+                        "items": { "type": "string" }
+                    },
+                    "content": { "type": "string" },
+                    "image": { "type": "string", "format": "uri", "nullable": true },
+                    "timeToRead": {
+                        "type": "integer",
+                        "description": "Estimated reading time in minutes"
+                    },
+                    "authorName": { "type": "string" },
+                    "authorTitle": { "type": "string", "nullable": true },
+                    "authorImage": { "type": "string", "format": "uri", "nullable": true },
+                    "createdAt": { "type": "string", "format": "date-time" },
+                    "updatedAt": { "type": "string", "format": "date-time" }
+                },
+                "required": [
+                    "id",
+                    "title",
+                    "slug",
+                    "tags",
+                    "content",
+                    "timeToRead",
+                    "authorName",
+                    "createdAt",
+                    "updatedAt"
+                ]
+            },
+            "RegisterPayload": {
+                "type": "object",
+                "properties": {
+                    "email": { "type": "string", "format": "email" },
+                    "password": {
+                        "type": "string",
+                        "minLength": 8,
+                        "description": "Password — min 8 characters, hashed with argon2id"
+                    },
+                    "name": { "type": "string" }
+                },
+                "required": ["email", "password"],
+                "additionalProperties": false
+            },
+            "ContactRequest": {
+                "type": "object",
+                "properties": {
+                    "subject": { "type": "string", "description": "Subject of the contact message" },
+                    "content": { "type": "string", "description": "Body content of the contact message" }
+                },
+                "required": ["subject", "content"],
+                "additionalProperties": true
+            },
+            "LoginPayload": {
+                "type": "object",
+                "properties": {
+                    "email": { "type": "string", "format": "email" },
+                    "password": { "type": "string" }
+                },
+                "required": ["email", "password"],
+                "additionalProperties": false
+            },
+            "CreateArticlePayload": {
+                "type": "object",
+                "properties": {
+                    "title": { "type": "string" },
+                    "tags": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "minItems": 1
+                    },
+                    "content": { "type": "string" },
+                    "image": { "type": "string", "format": "uri" },
+                    "timeToRead": { "type": "integer", "minimum": 1 },
+                    "authorName": { "type": "string" },
+                    "authorTitle": { "type": "string" },
+                    "authorImage": { "type": "string", "format": "uri" }
+                },
+                "required": ["title", "tags", "content", "timeToRead", "authorName"],
+                "additionalProperties": false
+            },
+            "UpdateArticlePayload": {
+                "type": "object",
+                "properties": {
+                    "title": { "type": "string" },
+                    "tags": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "minItems": 1
+                    },
+                    "content": { "type": "string" },
+                    "image": { "type": "string", "format": "uri" },
+                    "timeToRead": { "type": "integer", "minimum": 1 },
+                    "authorName": { "type": "string" },
+                    "authorTitle": { "type": "string" },
+                    "authorImage": { "type": "string", "format": "uri" }
+                },
+                "additionalProperties": false
+            },
+            "Prediction": {
+                "type": "object",
+                "properties": {
+                    "id": { "type": "string", "description": "Unique prediction ID (cuid)" },
+                    "userId": { "type": "string", "nullable": true, "description": "User ID (null if unauthenticated)" },
+                    "imageUrl": { "type": "string", "format": "uri", "description": "URL to prediction image in R2" },
+                    "predicted_class": { "type": "string", "description": "Predicted skin lesion class (e.g., Melanoma)" },
+                    "severity_label": { "type": "string", "description": "Severity classification (e.g., Severe)" },
+                    "confidence": { "type": "number", "format": "float", "description": "Confidence percentage (0-100)" },
+                    "combined_score": { "type": "number", "format": "float", "description": "Combined severity score (0-1)" },
+                    "malignancy_score": { "type": "number", "format": "float", "description": "Malignancy risk score (0-1)" },
+                    "site_risk_score": { "type": "number", "format": "float", "description": "Site-specific risk score (0-1)" },
+                    "area_pct": { "type": "number", "format": "float", "description": "Affected area percentage (0-100)" },
+                    "inference_time_ms": { "type": "number", "format": "float", "description": "ML model inference time in milliseconds" },
+                    "anatomical_site": { "type": "string", "description": "Anatomical location of lesion" },
+                    "createdAt": { "type": "string", "format": "date-time" },
+                    "updatedAt": { "type": "string", "format": "date-time" }
+                },
+                "required": [
+                    "id",
+                    "imageUrl",
+                    "predicted_class",
+                    "severity_label",
+                    "confidence",
+                    "combined_score",
+                    "malignancy_score",
+                    "site_risk_score",
+                    "area_pct",
+                    "inference_time_ms",
+                    "anatomical_site",
+                    "createdAt",
+                    "updatedAt"
+                ]
+            }
+        },
+        "responses": {
+            "Error": {
+                "description": "Standard error response",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "status": { "$ref": "#/components/schemas/FailedStatus" },
+                                "message": { "type": "string" },
+                                "data": { "type": "object" }
+                            },
+                            "required": ["status", "message", "data"]
+                        }
+                    }
+                }
+            },
+            "Empty": {
+                "description": "Empty success response",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "status": { "$ref": "#/components/schemas/SuccessStatus" },
+                                "message": { "type": "string" },
+                                "data": { "type": "object" }
+                            },
+                            "required": ["status", "message", "data"]
+                        }
+                    }
+                }
+            },
+            "ContactResponse": {
+                "description": "Contact form success response",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "status": { "$ref": "#/components/schemas/SuccessStatus" },
+                                "message": { "type": "string" },
+                                "data": { "type": "object" }
+                            },
+                            "required": ["status", "message", "data"]
+                        }
+                    }
+                }
+            },
+            "Health": {
+                "description": "Health check response",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "status": { "$ref": "#/components/schemas/SuccessStatus" },
+                                "message": { "type": "string" },
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "database": {
+                                            "type": "string",
+                                            "enum": ["healthy", "unhealthy"]
+                                        }
+                                    },
+                                    "required": ["database"]
+                                }
+                            },
+                            "required": ["status", "message", "data"]
+                        }
+                    }
+                }
+            },
+            "AuthResponse": {
+                "description": "Authentication response with user and access token",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "status": { "$ref": "#/components/schemas/SuccessStatus" },
+                                "message": { "type": "string" },
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "user": { "$ref": "#/components/schemas/User" },
+                                        "accessToken": {
+                                            "type": "string",
+                                            "description": "Paseto v4 local encrypted access token (1 hour expiry)"
+                                        }
+                                    },
+                                    "required": ["user", "accessToken"]
+                                }
+                            },
+                            "required": ["status", "message", "data"]
+                        }
+                    }
+                }
+            },
+            "AccessTokenResponse": {
+                "description": "Response containing only a new access token",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "status": { "$ref": "#/components/schemas/SuccessStatus" },
+                                "message": { "type": "string" },
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "accessToken": {
+                                            "type": "string",
+                                            "description": "Paseto v4 local encrypted access token (1 hour expiry)"
+                                        }
+                                    },
+                                    "required": ["accessToken"]
+                                }
+                            },
+                            "required": ["status", "message", "data"]
+                        }
+                    }
+                }
+            },
+            "MeResponse": {
+                "description": "Current authenticated user",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "status": { "$ref": "#/components/schemas/SuccessStatus" },
+                                "message": { "type": "string" },
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "user": { "$ref": "#/components/schemas/User" }
+                                    },
+                                    "required": ["user"]
+                                }
+                            },
+                            "required": ["status", "message", "data"]
+                        }
+                    }
+                }
+            },
+            "ArticleList": {
+                "description": "List of articles",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "status": { "$ref": "#/components/schemas/SuccessStatus" },
+                                "message": { "type": "string" },
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "articles": {
+                                            "type": "array",
+                                            "items": { "$ref": "#/components/schemas/Article" }
+                                        }
+                                    },
+                                    "required": ["articles"]
+                                }
+                            },
+                            "required": ["status", "message", "data"]
+                        }
+                    }
+                }
+            },
+            "ArticleResponse": {
+                "description": "Single article",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "status": { "$ref": "#/components/schemas/SuccessStatus" },
+                                "message": { "type": "string" },
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "article": { "$ref": "#/components/schemas/Article" }
+                                    },
+                                    "required": ["article"]
+                                }
+                            },
+                            "required": ["status", "message", "data"]
+                        }
+                    }
+                }
+            },
+            "PredictionResponse": {
+                "description": "Skin lesion prediction result",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "status": { "$ref": "#/components/schemas/SuccessStatus" },
+                                "message": { "type": "string" },
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "predicted_class": { "type": "string", "description": "Predicted lesion class" },
+                                        "severity_label": { "type": "string", "description": "Severity classification" },
+                                        "confidence": { "type": "number", "description": "Confidence 0-100" },
+                                        "combined_score": { "type": "number", "description": "Combined score 0-1" },
+                                        "malignancy_score": { "type": "number", "description": "Malignancy risk 0-1" },
+                                        "site_risk_score": { "type": "number", "description": "Site risk 0-1" },
+                                        "area_pct": { "type": "number", "description": "Area percentage 0-100" },
+                                        "inference_time_ms": { "type": "number", "description": "Inference time in ms" },
+                                        "anatomical_site": { "type": "string", "description": "Anatomical location" },
+                                        "imageUrl": { "type": "string", "format": "uri", "description": "R2 image URL" },
+                                        "storedInHistory": { "type": "boolean", "description": "Whether stored in user history" }
+                                    },
+                                    "required": [
+                                        "predicted_class",
+                                        "severity_label",
+                                        "confidence",
+                                        "combined_score",
+                                        "malignancy_score",
+                                        "site_risk_score",
+                                        "area_pct",
+                                        "inference_time_ms",
+                                        "anatomical_site",
+                                        "imageUrl",
+                                        "storedInHistory"
+                                    ]
+                                }
+                            },
+                            "required": ["status", "message", "data"]
+                        }
+                    }
+                }
+            },
+            "PredictionHistoryResponse": {
+                "description": "Paginated prediction history",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "status": { "$ref": "#/components/schemas/SuccessStatus" },
+                                "message": { "type": "string" },
+                                "data": {
+                                    "type": "object",
+                                    "properties": {
+                                        "predictions": {
+                                            "type": "array",
+                                            "items": { "$ref": "#/components/schemas/Prediction" }
+                                        },
+                                        "pagination": {
+                                            "type": "object",
+                                            "properties": {
+                                                "total": { "type": "integer", "description": "Total predictions count" },
+                                                "limit": { "type": "integer", "description": "Results per page" },
+                                                "offset": { "type": "integer", "description": "Pagination offset" },
+                                                "hasMore": { "type": "boolean", "description": "Are there more results?" }
+                                            },
+                                            "required": ["total", "limit", "offset", "hasMore"]
+                                        }
+                                    },
+                                    "required": ["predictions", "pagination"]
+                                }
+                            },
+                            "required": ["status", "message", "data"]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

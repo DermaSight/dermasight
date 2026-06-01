@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /result
+Disallow: /profile
+Disallow: /admin/library
+Disallow: /sign-in
+Disallow: /sign-up
