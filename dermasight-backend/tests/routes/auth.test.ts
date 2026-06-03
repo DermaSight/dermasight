@@ -69,7 +69,7 @@ describe("POST /auth/register", () => {
         const res = await fetch(`${baseURL}/auth/register`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email: "new@example.com", password: testPassword, name: "New" })
+            body: JSON.stringify({ email: "new@example.com", password: testPassword, confirm_password: testPassword, name: "New" })
         });
         const body = await parseResponse(res);
 
@@ -93,7 +93,7 @@ describe("POST /auth/register", () => {
         const res = await fetch(`${baseURL}/auth/register`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email: "existing@example.com", password: testPassword })
+            body: JSON.stringify({ email: "existing@example.com", password: testPassword, confirm_password: testPassword })
         });
         const body = await parseResponse(res);
 
@@ -106,7 +106,7 @@ describe("POST /auth/register", () => {
         const res = await fetch(`${baseURL}/auth/register`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email: "not-email", password: testPassword })
+            body: JSON.stringify({ email: "not-email", password: testPassword, confirm_password: testPassword })
         });
         const body = await parseResponse(res);
 
@@ -119,12 +119,25 @@ describe("POST /auth/register", () => {
         const res = await fetch(`${baseURL}/auth/register`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email: "user@example.com", password: "short" })
+            body: JSON.stringify({ email: "user@example.com", password: "short", confirm_password: "short" })
         });
         const body = await parseResponse(res);
 
         expect(res.status).toBe(400);
         expect(body.status).toBe("failed");
+    });
+
+    test("returns 400 when passwords do not match", async () => {
+        const res = await fetch(`${baseURL}/auth/register`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email: "user@example.com", password: testPassword, confirm_password: "differentpass1" })
+        });
+        const body = await parseResponse(res);
+
+        expect(res.status).toBe(400);
+        expect(body.status).toBe("failed");
+        expect(body.message).toBe("Validation failed");
     });
 
     test("returns 400 for missing required fields", async () => {
@@ -147,7 +160,7 @@ describe("POST /auth/register", () => {
         const res = await fetch(`${baseURL}/auth/register`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email: "noname@example.com", password: testPassword })
+            body: JSON.stringify({ email: "noname@example.com", password: testPassword, confirm_password: testPassword })
         });
         const body = await parseResponse(res);
 

@@ -2,9 +2,9 @@ import { IconEye, IconEyeOff } from "@tabler/icons-react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { AuthLayout } from "@/components/AuthLayout";
+import { SEO } from "@/components/seo/SEO";
 import { useAuth } from "@/utils/auth-context/AuthContext";
 import { signIn } from "@/utils/sign-in/signInService";
-import { SEO } from "@/components/seo/SEO";
 
 export default function SignIn() {
 	const [isPwVisible, setIsPwVisible] = useState(false);
@@ -58,6 +58,7 @@ export default function SignIn() {
 						type="email"
 						id="email"
 						value={email}
+						maxLength={255}
 						onChange={(e) => setEmail(e.target.value)}
 						placeholder="Email address"
 						required
@@ -74,6 +75,8 @@ export default function SignIn() {
 							type={isPwVisible ? "text" : "password"}
 							id="password"
 							value={password}
+							minLength={8}
+							maxLength={255}
 							onChange={(e) => setPassword(e.target.value)}
 							placeholder="Password"
 							required

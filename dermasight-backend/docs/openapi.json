@@ -876,10 +876,24 @@
                         "minLength": 8,
                         "description": "Password — min 8 characters, hashed with argon2id"
                     },
+                    "confirm_password": {
+                        "type": "string",
+                        "minLength": 8,
+                        "description": "Must match password field exactly"
+                    },
                     "name": { "type": "string" }
                 },
-                "required": ["email", "password"],
+                "required": ["email", "password", "confirm_password"],
                 "additionalProperties": false
+            },
+            "ErrorData": {
+                "type": "object",
+                "description": "Error response payload data field",
+                "properties": {
+                    "type": { "type": "string", "description": "Error class name (e.g., BadRequestError, UnauthorizedError)" },
+                    "issues": { "type": "array", "items": { "type": "object" }, "description": "Validation error details when applicable" },
+                    "stack": { "type": "array", "items": { "type": "string" }, "description": "Stack trace lines (development only)" }
+                }
             },
             "ContactRequest": {
                 "type": "object",
@@ -981,7 +995,7 @@
                             "properties": {
                                 "status": { "$ref": "#/components/schemas/FailedStatus" },
                                 "message": { "type": "string" },
-                                "data": { "type": "object" }
+                                "data": { "$ref": "#/components/schemas/ErrorData" }
                             },
                             "required": ["status", "message", "data"]
                         }

@@ -152,12 +152,15 @@ describe("POST /contact-us", () => {
         expect(body.status).toBe("failed");
     });
 
-    test("returns 500 on malformed JSON body (express.json SyntaxError)", async () => {
+    test("returns 400 on malformed JSON body (express.json SyntaxError)", async () => {
         const res = await fetch(`${baseURL}/contact-us`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: "not-json"
         });
-        expect(res.status).toBe(500);
+        const body = await parseResponse(res);
+        expect(res.status).toBe(400);
+        expect(body.status).toBe("failed");
+        expect(body.message).toBe("Invalid JSON");
     });
 });

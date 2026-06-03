@@ -6,6 +6,7 @@ export interface SignUpResponse {
 export async function signUp(
 	email: string,
 	password: string,
+	confirm_password: string,
 	name: string,
 ): Promise<SignUpResponse> {
 	const response = await fetch(
@@ -13,7 +14,7 @@ export async function signUp(
 		{
 			method: "POST",
 			headers: { "Content-Type": "application/json" },
-			body: JSON.stringify({ email, password, name }),
+			body: JSON.stringify({ email, password, confirm_password, name }),
 			credentials: "include",
 		},
 	);
@@ -21,7 +22,7 @@ export async function signUp(
 	const parseResponse = await response.json();
 
 	if (!response.ok) {
-		throw new Error(parseResponse.message || "Failed to sign in");
+		throw parseResponse;
 	}
 
 	const data = parseResponse.data as SignUpResponse;

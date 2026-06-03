@@ -140,6 +140,15 @@ describe("Custom Error Classes", () => {
             expect(new MLServiceError() instanceof InternalServerError).toBe(false);
         });
 
+        test("each error class has the correct name property", () => {
+            expect(new InternalServerError().name).toBe("InternalServerError");
+            expect(new NotFoundError().name).toBe("NotFoundError");
+            expect(new BadRequestError().name).toBe("BadRequestError");
+            expect(new UnauthorizedError().name).toBe("UnauthorizedError");
+            expect(new ForbiddenError().name).toBe("ForbiddenError");
+            expect(new MLServiceError().name).toBe("MLServiceError");
+        });
+
         test("each error class has unique statusCode", () => {
             const codes = [
                 new InternalServerError().statusCode,

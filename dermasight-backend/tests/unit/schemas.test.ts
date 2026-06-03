@@ -5,10 +5,13 @@ import { createPredictionSchema, historyQuerySchema } from "@/schemas/prediction
 
 describe("Auth Schemas", () => {
     describe("registerSchema", () => {
+        const validPassword = "securepass123";
+
         test("valid registration data", () => {
             const result = registerSchema.safeParse({
                 email: "user@example.com",
-                password: "securepass123",
+                password: validPassword,
+                confirm_password: validPassword,
                 name: "Test User"
             });
             expect(result.success).toBe(true);
@@ -17,7 +20,8 @@ describe("Auth Schemas", () => {
         test("valid without optional name", () => {
             const result = registerSchema.safeParse({
                 email: "user@example.com",
-                password: "securepass123"
+                password: validPassword,
+                confirm_password: validPassword
             });
             expect(result.success).toBe(true);
         });
@@ -25,14 +29,16 @@ describe("Auth Schemas", () => {
         test("invalid email format", () => {
             const result = registerSchema.safeParse({
                 email: "not-an-email",
-                password: "securepass123"
+                password: validPassword,
+                confirm_password: validPassword
             });
             expect(result.success).toBe(false);
         });
 
         test("missing email", () => {
             const result = registerSchema.safeParse({
-                password: "securepass123"
+                password: validPassword,
+                confirm_password: validPassword
             });
             expect(result.success).toBe(false);
         });
@@ -40,14 +46,16 @@ describe("Auth Schemas", () => {
         test("password too short (under 8 characters)", () => {
             const result = registerSchema.safeParse({
                 email: "user@example.com",
-                password: "short"
+                password: "short",
+                confirm_password: "short"
             });
             expect(result.success).toBe(false);
         });
 
         test("missing password", () => {
             const result = registerSchema.safeParse({
-                email: "user@example.com"
+                email: "user@example.com",
+                confirm_password: validPassword
             });
             expect(result.success).toBe(false);
         });
@@ -60,7 +68,37 @@ describe("Auth Schemas", () => {
         test("empty email string", () => {
             const result = registerSchema.safeParse({
                 email: "",
-                password: "securepass123"
+                password: validPassword,
+                confirm_password: validPassword
+            });
+            expect(result.success).toBe(false);
+        });
+
+        test("mismatched passwords", () => {
+            const result = registerSchema.safeParse({
+                email: "user@example.com",
+                password: validPassword,
+                confirm_password: "differentpass1"
+            });
+            expect(result.success).toBe(false);
+            const issues = (result as any).error.issues;
+            expect(issues[0].path).toContain("confirm_password");
+            expect(issues[0].message).toBe("Passwords do not match");
+        });
+
+        test("missing confirm_password", () => {
+            const result = registerSchema.safeParse({
+                email: "user@example.com",
+                password: validPassword
+            });
+            expect(result.success).toBe(false);
+        });
+
+        test("confirm_password too short (under 8 characters)", () => {
+            const result = registerSchema.safeParse({
+                email: "user@example.com",
+                password: validPassword,
+                confirm_password: "short"
             });
             expect(result.success).toBe(false);
         });

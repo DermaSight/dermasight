@@ -1,20 +1,10 @@
 import { Request, Response, NextFunction, ErrorRequestHandler } from "express";
 
-import {
-    InternalServerError,
-    NotFoundError,
-    BadRequestError,
-    ForbiddenError,
-    UnauthorizedError,
-    MLServiceError
-} from "@/utils/customErrors";
 import fResponse from "@/utils/responseFormatter";
+import logger from "@/utils/logger";
 
 const devStack = (err: Error) =>
     process.env.ENVIRONMENT === "development" ? err.stack?.trim().split("\n") : {};
-
-const devCause = (err: Error) =>
-    process.env.ENVIRONMENT === "development" ? (err.cause as object) : {};
 
 export const errorMiddleware: ErrorRequestHandler = (
     err: Error,
@@ -22,21 +12,29 @@ export const errorMiddleware: ErrorRequestHandler = (
     res: Response,
     _next: NextFunction
 ) => {
-    const code = err instanceof BadRequestError
-        ? err.statusCode
-        : err instanceof InternalServerError ||
-          err instanceof NotFoundError ||
-          err instanceof ForbiddenError ||
-          err instanceof UnauthorizedError ||
-          err instanceof MLServiceError
-        ? err.statusCode
-        : 500;
+    logger.error(err.stack || err.message);
+
+    if (err instanceof SyntaxError && "body" in err) {
+        return fResponse({
+            res,
+            code: 400,
+            message: "Invalid JSON",
+            data: { type: "SyntaxError" }
+        });
+    }
+
+    const code = (err as any).statusCode ?? 500;
+    const isCustomError = typeof (err as any).statusCode === "number";
 
     return fResponse({
         res,
         code,
-        message: err instanceof BadRequestError ? err.message : err.message || "Something went wrong",
-        data: err instanceof BadRequestError ? devCause(err) : devStack(err)
+        message: isCustomError ? err.message : "Something went wrong",
+        data: {
+            type: err.name,
+            ...(err.cause ? { issues: err.cause } : {}),
+            ...(process.env.ENVIRONMENT === "development" ? { stack: devStack(err) } : {})
+        }
     });
 };
 
