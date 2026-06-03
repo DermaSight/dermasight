@@ -1,0 +1,1000 @@
+image_path,class_name,image_id,anatom_site_general,lesion_id,site_risk_score
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055311.jpg,MEL,ISIC_0055311,anterior torso,BCN_0005525,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055032.jpg,BCC,ISIC_0055032,anterior torso,BCN_0003633,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026030.jpg,NV,ISIC_0026030,lower extremity,HAM_0003580,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030182.jpg,NV,ISIC_0030182,posterior torso,HAM_0000690,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066725.jpg,BCC,ISIC_0066725,anterior torso,BCN_0001245,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058367.jpg,MEL,ISIC_0058367,upper extremity,BCN_0001821,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056516.jpg,BCC,ISIC_0056516,anterior torso,BCN_0005260,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054355.jpg,MEL,ISIC_0054355,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058866.jpg,MEL,ISIC_0058866,palms/soles,BCN_0001078,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072638.jpg,BCC,ISIC_0072638,head/neck,BCN_0002940,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065190.jpg,BCC,ISIC_0065190,lower extremity,BCN_0001160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069922.jpg,MEL,ISIC_0069922,head/neck,BCN_0001249,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067552.jpg,BCC,ISIC_0067552,head/neck,BCN_0005555,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062978.jpg,MEL,ISIC_0062978,anterior torso,BCN_0001991,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057456.jpg,BCC,ISIC_0057456,anterior torso,BCN_0000449,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0016006_downsampled.jpg,NV,ISIC_0016006_downsampled,unknown,unknown_lesion_2025,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064325.jpg,BCC,ISIC_0064325,anterior torso,BCN_0005247,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033881.jpg,MEL,ISIC_0033881,head/neck,HAM_0005545,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068975.jpg,MEL,ISIC_0068975,palms/soles,BCN_0004978,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054867.jpg,NV,ISIC_0054867,anterior torso,BCN_0003365,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014163_downsampled.jpg,MEL,ISIC_0014163_downsampled,upper extremity,MSK4_0010793,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013845_downsampled.jpg,MEL,ISIC_0013845_downsampled,posterior torso,MSK4_0010758,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054279.jpg,BCC,ISIC_0054279,lower extremity,BCN_0001160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071670.jpg,BCC,ISIC_0071670,head/neck,BCN_0005242,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067753.jpg,BCC,ISIC_0067753,anterior torso,BCN_0005569,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053466.jpg,NV,ISIC_0053466,anterior torso,BCN_0002221,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033816.jpg,NV,ISIC_0033816,upper extremity,HAM_0006675,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014458_downsampled.jpg,NV,ISIC_0014458_downsampled,upper extremity,MSK4_0010764,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060825.jpg,BCC,ISIC_0060825,head/neck,BCN_0005214,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025987.jpg,MEL,ISIC_0025987,lower extremity,HAM_0002824,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031339.jpg,MEL,ISIC_0031339,posterior torso,HAM_0001744,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030650.jpg,NV,ISIC_0030650,lower extremity,HAM_0000538,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063992.jpg,MEL,ISIC_0063992,anterior torso,BCN_0004188,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032258.jpg,MEL,ISIC_0032258,posterior torso,HAM_0003521,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024516.jpg,MEL,ISIC_0024516,posterior torso,HAM_0002523,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061511.jpg,BCC,ISIC_0061511,anterior torso,BCN_0004221,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031092.jpg,NV,ISIC_0031092,anterior torso,HAM_0006492,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013695_downsampled.jpg,NV,ISIC_0013695_downsampled,posterior torso,MSK4_0010392,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064120.jpg,MEL,ISIC_0064120,anterior torso,BCN_0000627,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056202.jpg,MEL,ISIC_0056202,anterior torso,BCN_0000627,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069287.jpg,BCC,ISIC_0069287,anterior torso,BCN_0003753,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026506.jpg,MEL,ISIC_0026506,unknown,HAM_0000871,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068292.jpg,BCC,ISIC_0068292,head/neck,BCN_0003559,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0034256.jpg,MEL,ISIC_0034256,posterior torso,HAM_0005636,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030205.jpg,NV,ISIC_0030205,unknown,HAM_0007322,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030795.jpg,MEL,ISIC_0030795,posterior torso,HAM_0003601,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030213.jpg,NV,ISIC_0030213,lower extremity,HAM_0005622,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028814.jpg,BCC,ISIC_0028814,head/neck,HAM_0005375,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0034301.jpg,NV,ISIC_0034301,lower extremity,HAM_0001943,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055963.jpg,BCC,ISIC_0055963,head/neck,BCN_0005022,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058016.jpg,MEL,ISIC_0058016,anterior torso,BCN_0001286,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033534.jpg,MEL,ISIC_0033534,upper extremity,HAM_0005953,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031175.jpg,BCC,ISIC_0031175,lower extremity,HAM_0001654,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0034247.jpg,NV,ISIC_0034247,head/neck,HAM_0006559,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026534.jpg,NV,ISIC_0026534,lower extremity,HAM_0000365,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030495.jpg,NV,ISIC_0030495,lower extremity,HAM_0003111,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0009912.jpg,NV,ISIC_0009912,lower extremity,unknown_lesion_710,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013072_downsampled.jpg,MEL,ISIC_0013072_downsampled,lower extremity,MSK4_0010867,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033476.jpg,MEL,ISIC_0033476,lower extremity,HAM_0002824,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028035.jpg,BCC,ISIC_0028035,upper extremity,HAM_0002577,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028927.jpg,NV,ISIC_0028927,posterior torso,HAM_0000680,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025940.jpg,BCC,ISIC_0025940,head/neck,HAM_0001503,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062927.jpg,BCC,ISIC_0062927,anterior torso,BCN_0003593,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057044.jpg,MEL,ISIC_0057044,anterior torso,BCN_0001082,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032132.jpg,BCC,ISIC_0032132,anterior torso,HAM_0000352,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063070.jpg,MEL,ISIC_0063070,head/neck,BCN_0002956,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061127.jpg,MEL,ISIC_0061127,anterior torso,BCN_0004188,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057937.jpg,BCC,ISIC_0057937,anterior torso,BCN_0003593,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031934.jpg,NV,ISIC_0031934,posterior torso,HAM_0002003,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060063.jpg,BCC,ISIC_0060063,anterior torso,BCN_0004499,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0034182.jpg,NV,ISIC_0034182,posterior torso,HAM_0002908,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027288.jpg,NV,ISIC_0027288,upper extremity,HAM_0001581,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013618_downsampled.jpg,MEL,ISIC_0013618_downsampled,posterior torso,MSK4_0010712,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032846.jpg,NV,ISIC_0032846,upper extremity,HAM_0006675,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067539.jpg,MEL,ISIC_0067539,upper extremity,BCN_0003583,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030915.jpg,BCC,ISIC_0030915,posterior torso,HAM_0003043,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030332.jpg,NV,ISIC_0030332,lower extremity,HAM_0007035,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072276.jpg,BCC,ISIC_0072276,head/neck,BCN_0005214,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028352.jpg,MEL,ISIC_0028352,posterior torso,HAM_0006423,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053873.jpg,BCC,ISIC_0053873,anterior torso,BCN_0002298,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026415.jpg,NV,ISIC_0026415,upper extremity,HAM_0000520,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055796.jpg,MEL,ISIC_0055796,lower extremity,BCN_0005160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067430.jpg,NV,ISIC_0067430,anterior torso,BCN_0005464,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028937.jpg,BCC,ISIC_0028937,head/neck,HAM_0003610,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071532.jpg,MEL,ISIC_0071532,anterior torso,BCN_0004673,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061870.jpg,MEL,ISIC_0061870,lower extremity,BCN_0005160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069591.jpg,MEL,ISIC_0069591,anterior torso,BCN_0005525,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027076.jpg,MEL,ISIC_0027076,anterior torso,HAM_0000492,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0073016.jpg,MEL,ISIC_0073016,anterior torso,BCN_0001082,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032152.jpg,MEL,ISIC_0032152,lower extremity,HAM_0003869,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064549.jpg,MEL,ISIC_0064549,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030604.jpg,MEL,ISIC_0030604,lower extremity,HAM_0002613,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057901.jpg,BCC,ISIC_0057901,anterior torso,BCN_0000640,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0034239.jpg,MEL,ISIC_0034239,lower extremity,HAM_0004578,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056473.jpg,BCC,ISIC_0056473,lower extremity,BCN_0004564,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029250.jpg,NV,ISIC_0029250,unknown,HAM_0003720,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060517.jpg,NV,ISIC_0060517,head/neck,BCN_0000647,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063822.jpg,BCC,ISIC_0063822,anterior torso,BCN_0005371,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056130.jpg,MEL,ISIC_0056130,palms/soles,BCN_0002989,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054845.jpg,BCC,ISIC_0054845,anterior torso,BCN_0003159,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060700.jpg,MEL,ISIC_0060700,head/neck,BCN_0000880,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0015041_downsampled.jpg,MEL,ISIC_0015041_downsampled,upper extremity,unknown_lesion_1781,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026747.jpg,NV,ISIC_0026747,lower extremity,HAM_0006169,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061906.jpg,BCC,ISIC_0061906,anterior torso,BCN_0004268,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055519.jpg,MEL,ISIC_0055519,lower extremity,BCN_0005160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067131.jpg,BCC,ISIC_0067131,head/neck,BCN_0002634,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063802.jpg,BCC,ISIC_0063802,anterior torso,BCN_0003159,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067628.jpg,MEL,ISIC_0067628,head/neck,BCN_0002152,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055137.jpg,BCC,ISIC_0055137,head/neck,BCN_0001509,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064210.jpg,BCC,ISIC_0064210,head/neck,BCN_0005539,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071763.jpg,BCC,ISIC_0071763,anterior torso,BCN_0001323,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024306.jpg,NV,ISIC_0024306,unknown,HAM_0000550,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054775.jpg,NV,ISIC_0054775,anterior torso,BCN_0001674,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060607.jpg,NV,ISIC_0060607,palms/soles,BCN_0001493,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029852.jpg,NV,ISIC_0029852,upper extremity,HAM_0002444,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030074.jpg,NV,ISIC_0030074,upper extremity,HAM_0000140,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033392.jpg,MEL,ISIC_0033392,unknown,HAM_0003174,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070228.jpg,NV,ISIC_0070228,anterior torso,BCN_0000643,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053731.jpg,BCC,ISIC_0053731,head/neck,BCN_0003074,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029321.jpg,NV,ISIC_0029321,anterior torso,HAM_0007162,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027345.jpg,NV,ISIC_0027345,anterior torso,HAM_0005091,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027981.jpg,NV,ISIC_0027981,posterior torso,HAM_0006648,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066010.jpg,BCC,ISIC_0066010,head/neck,BCN_0002940,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065221.jpg,BCC,ISIC_0065221,anterior torso,BCN_0003017,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054569.jpg,BCC,ISIC_0054569,upper extremity,BCN_0004891,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071692.jpg,BCC,ISIC_0071692,anterior torso,BCN_0004602,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061868.jpg,NV,ISIC_0061868,upper extremity,BCN_0003354,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063611.jpg,NV,ISIC_0063611,anterior torso,BCN_0002221,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033479.jpg,MEL,ISIC_0033479,posterior torso,HAM_0004321,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063283.jpg,BCC,ISIC_0063283,anterior torso,BCN_0004426,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060659.jpg,MEL,ISIC_0060659,head/neck,BCN_0001694,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063458.jpg,BCC,ISIC_0063458,upper extremity,BCN_0003751,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028467.jpg,MEL,ISIC_0028467,posterior torso,HAM_0004676,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0073036.jpg,NV,ISIC_0073036,anterior torso,BCN_0001713,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024762.jpg,NV,ISIC_0024762,posterior torso,HAM_0005154,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065874.jpg,BCC,ISIC_0065874,anterior torso,BCN_0003159,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029985.jpg,NV,ISIC_0029985,head/neck,HAM_0004763,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029424.jpg,NV,ISIC_0029424,anterior torso,HAM_0000297,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063921.jpg,NV,ISIC_0063921,anterior torso,BCN_0005464,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057050.jpg,BCC,ISIC_0057050,anterior torso,BCN_0000056,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070333.jpg,MEL,ISIC_0070333,palms/soles,BCN_0004110,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030170.jpg,NV,ISIC_0030170,upper extremity,HAM_0006845,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026079.jpg,NV,ISIC_0026079,posterior torso,HAM_0004683,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0073058.jpg,NV,ISIC_0073058,anterior torso,BCN_0001089,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029845.jpg,NV,ISIC_0029845,unknown,HAM_0000892,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031407.jpg,BCC,ISIC_0031407,head/neck,HAM_0001575,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000482.jpg,MEL,ISIC_0000482,lower extremity,unknown_lesion_411,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024452.jpg,BCC,ISIC_0024452,posterior torso,HAM_0005971,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064627.jpg,NV,ISIC_0064627,anterior torso,BCN_0001674,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030690.jpg,BCC,ISIC_0030690,posterior torso,HAM_0004514,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0010589.jpg,NV,ISIC_0010589,posterior torso,unknown_lesion_1040,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069434.jpg,BCC,ISIC_0069434,head/neck,BCN_0003841,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063005.jpg,NV,ISIC_0063005,upper extremity,BCN_0002605,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055194.jpg,BCC,ISIC_0055194,anterior torso,BCN_0002230,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031828.jpg,NV,ISIC_0031828,unknown,HAM_0005788,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000320.jpg,NV,ISIC_0000320,lower extremity,unknown_lesion_286,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025512.jpg,MEL,ISIC_0025512,upper extremity,HAM_0001986,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056860.jpg,MEL,ISIC_0056860,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0011132.jpg,MEL,ISIC_0011132,upper extremity,unknown_lesion_1113,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013577_downsampled.jpg,MEL,ISIC_0013577_downsampled,anterior torso,MSK4_0010782,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072852.jpg,BCC,ISIC_0072852,head/neck,BCN_0004229,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032984.jpg,MEL,ISIC_0032984,posterior torso,HAM_0005636,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063930.jpg,MEL,ISIC_0063930,head/neck,BCN_0002367,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061832.jpg,BCC,ISIC_0061832,head/neck,BCN_0002658,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027961.jpg,NV,ISIC_0027961,anterior torso,HAM_0005365,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061470.jpg,BCC,ISIC_0061470,anterior torso,BCN_0001864,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058196.jpg,MEL,ISIC_0058196,palms/soles,BCN_0004110,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058099.jpg,NV,ISIC_0058099,head/neck,BCN_0005007,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025491.jpg,NV,ISIC_0025491,posterior torso,HAM_0006608,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025587.jpg,NV,ISIC_0025587,lower extremity,HAM_0007510,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030925.jpg,MEL,ISIC_0030925,lower extremity,HAM_0002613,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060662.jpg,BCC,ISIC_0060662,anterior torso,BCN_0002298,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059015.jpg,BCC,ISIC_0059015,anterior torso,BCN_0005371,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059255.jpg,BCC,ISIC_0059255,lower extremity,BCN_0002838,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072474.jpg,BCC,ISIC_0072474,head/neck,BCN_0005555,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028303.jpg,BCC,ISIC_0028303,upper extremity,HAM_0005030,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071163.jpg,BCC,ISIC_0071163,head/neck,BCN_0004197,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067621.jpg,MEL,ISIC_0067621,head/neck,BCN_0005161,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058392.jpg,BCC,ISIC_0058392,head/neck,BCN_0004197,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000410_downsampled.jpg,MEL,ISIC_0000410_downsampled,unknown,unknown_lesion_360,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029688.jpg,NV,ISIC_0029688,anterior torso,HAM_0006369,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030796.jpg,NV,ISIC_0030796,posterior torso,HAM_0006793,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064183.jpg,BCC,ISIC_0064183,head/neck,BCN_0000524,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032476.jpg,MEL,ISIC_0032476,posterior torso,HAM_0001744,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013217_downsampled.jpg,NV,ISIC_0013217_downsampled,lower extremity,MSK4_0011676,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055768.jpg,BCC,ISIC_0055768,anterior torso,BCN_0003593,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059939.jpg,NV,ISIC_0059939,lower extremity,BCN_0003234,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033522.jpg,MEL,ISIC_0033522,posterior torso,HAM_0004321,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059725.jpg,BCC,ISIC_0059725,anterior torso,BCN_0003115,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058188.jpg,BCC,ISIC_0058188,head/neck,BCN_0003818,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066210.jpg,BCC,ISIC_0066210,anterior torso,BCN_0002481,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067088.jpg,BCC,ISIC_0067088,upper extremity,BCN_0004624,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059906.jpg,NV,ISIC_0059906,lower extremity,BCN_0000653,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024903.jpg,NV,ISIC_0024903,upper extremity,HAM_0004238,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072595.jpg,MEL,ISIC_0072595,palms/soles,BCN_0004978,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0015953_downsampled.jpg,NV,ISIC_0015953_downsampled,unknown,unknown_lesion_1978,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025714.jpg,NV,ISIC_0025714,posterior torso,HAM_0000458,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030916.jpg,NV,ISIC_0030916,unknown,HAM_0006642,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069529.jpg,NV,ISIC_0069529,anterior torso,BCN_0002014,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027659.jpg,MEL,ISIC_0027659,posterior torso,HAM_0005642,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056866.jpg,BCC,ISIC_0056866,head/neck,BCN_0001124,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0009800_downsampled.jpg,NV,ISIC_0009800_downsampled,unknown,unknown_lesion_676,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030049.jpg,NV,ISIC_0030049,unknown,HAM_0007469,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055760.jpg,BCC,ISIC_0055760,lower extremity,BCN_0001160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069457.jpg,MEL,ISIC_0069457,head/neck,BCN_0001249,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060657.jpg,BCC,ISIC_0060657,anterior torso,BCN_0000381,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027054.jpg,NV,ISIC_0027054,unknown,HAM_0005414,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067752.jpg,NV,ISIC_0067752,anterior torso,BCN_0002554,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027924.jpg,NV,ISIC_0027924,anterior torso,HAM_0006283,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058339.jpg,BCC,ISIC_0058339,upper extremity,BCN_0000840,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031400.jpg,BCC,ISIC_0031400,anterior torso,HAM_0001331,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013302_downsampled.jpg,NV,ISIC_0013302_downsampled,head/neck,MSK4_0011746,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061515.jpg,BCC,ISIC_0061515,lower extremity,BCN_0003871,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068931.jpg,MEL,ISIC_0068931,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055181.jpg,MEL,ISIC_0055181,upper extremity,BCN_0005031,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025252.jpg,NV,ISIC_0025252,head/neck,HAM_0007239,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068345.jpg,BCC,ISIC_0068345,anterior torso,BCN_0004218,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057067.jpg,MEL,ISIC_0057067,palms/soles,BCN_0001078,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059440.jpg,MEL,ISIC_0059440,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025308.jpg,NV,ISIC_0025308,unknown,HAM_0001821,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071676.jpg,BCC,ISIC_0071676,head/neck,BCN_0005555,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059721.jpg,NV,ISIC_0059721,palms/soles,BCN_0005164,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056800.jpg,MEL,ISIC_0056800,oral/genital,BCN_0005607,0.85
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072427.jpg,BCC,ISIC_0072427,anterior torso,BCN_0004772,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026433.jpg,BCC,ISIC_0026433,anterior torso,HAM_0003826,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057324.jpg,MEL,ISIC_0057324,palms/soles,BCN_0004110,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068597.jpg,BCC,ISIC_0068597,anterior torso,BCN_0003115,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028542.jpg,BCC,ISIC_0028542,anterior torso,HAM_0001573,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027616.jpg,MEL,ISIC_0027616,posterior torso,HAM_0007620,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065972.jpg,BCC,ISIC_0065972,head/neck,BCN_0001888,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032426.jpg,NV,ISIC_0032426,posterior torso,HAM_0007527,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059571.jpg,NV,ISIC_0059571,anterior torso,BCN_0005028,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025694.jpg,NV,ISIC_0025694,lower extremity,HAM_0007057,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058220.jpg,BCC,ISIC_0058220,anterior torso,BCN_0003159,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055534.jpg,NV,ISIC_0055534,anterior torso,BCN_0004415,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071481.jpg,NV,ISIC_0071481,upper extremity,BCN_0002164,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030997.jpg,NV,ISIC_0030997,lower extremity,HAM_0006825,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024921.jpg,NV,ISIC_0024921,unknown,HAM_0005936,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025956.jpg,NV,ISIC_0025956,posterior torso,HAM_0000741,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060934.jpg,MEL,ISIC_0060934,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025070.jpg,NV,ISIC_0025070,anterior torso,HAM_0002913,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0010851.jpg,NV,ISIC_0010851,palms/soles,unknown_lesion_1062,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026247.jpg,MEL,ISIC_0026247,posterior torso,HAM_0004676,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026696.jpg,NV,ISIC_0026696,unknown,HAM_0006473,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058828.jpg,NV,ISIC_0058828,anterior torso,BCN_0003534,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061799.jpg,MEL,ISIC_0061799,anterior torso,BCN_0001082,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032452.jpg,NV,ISIC_0032452,upper extremity,HAM_0002739,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000077_downsampled.jpg,MEL,ISIC_0000077_downsampled,upper extremity,unknown_lesion_73,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068817.jpg,MEL,ISIC_0068817,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068583.jpg,MEL,ISIC_0068583,anterior torso,BCN_0005438,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032812.jpg,MEL,ISIC_0032812,unknown,HAM_0005748,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064684.jpg,BCC,ISIC_0064684,anterior torso,BCN_0001245,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057089.jpg,MEL,ISIC_0057089,anterior torso,BCN_0001563,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071196.jpg,MEL,ISIC_0071196,palms/soles,BCN_0004110,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0001275_downsampled.jpg,NV,ISIC_0001275_downsampled,unknown,unknown_lesion_518,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060402.jpg,NV,ISIC_0060402,anterior torso,BCN_0004987,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066969.jpg,MEL,ISIC_0066969,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053505.jpg,NV,ISIC_0053505,head/neck,BCN_0005007,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0011328.jpg,NV,ISIC_0011328,upper extremity,unknown_lesion_1191,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063413.jpg,BCC,ISIC_0063413,anterior torso,BCN_0001864,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070015.jpg,BCC,ISIC_0070015,upper extremity,BCN_0004624,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033283.jpg,NV,ISIC_0033283,lower extremity,HAM_0001246,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063608.jpg,NV,ISIC_0063608,lower extremity,BCN_0000653,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068962.jpg,MEL,ISIC_0068962,palms/soles,BCN_0004110,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059581.jpg,BCC,ISIC_0059581,anterior torso,BCN_0001206,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033042.jpg,MEL,ISIC_0033042,head/neck,HAM_0002149,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070453.jpg,BCC,ISIC_0070453,anterior torso,BCN_0001864,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063598.jpg,MEL,ISIC_0063598,head/neck,BCN_0004815,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062633.jpg,MEL,ISIC_0062633,head/neck,BCN_0001694,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032768.jpg,BCC,ISIC_0032768,lower extremity,HAM_0001138,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072488.jpg,NV,ISIC_0072488,anterior torso,BCN_0002484,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053514.jpg,BCC,ISIC_0053514,head/neck,BCN_0005242,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026677.jpg,NV,ISIC_0026677,lower extremity,HAM_0001262,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068946.jpg,BCC,ISIC_0068946,lower extremity,BCN_0004596,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027634.jpg,NV,ISIC_0027634,anterior torso,HAM_0005725,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027092.jpg,NV,ISIC_0027092,lower extremity,HAM_0007582,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030417.jpg,MEL,ISIC_0030417,head/neck,HAM_0004476,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027123.jpg,NV,ISIC_0027123,posterior torso,HAM_0003780,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055690.jpg,MEL,ISIC_0055690,lower extremity,BCN_0005160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056677.jpg,MEL,ISIC_0056677,anterior torso,BCN_0000627,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065518.jpg,MEL,ISIC_0065518,anterior torso,BCN_0002758,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0011228.jpg,NV,ISIC_0011228,posterior torso,unknown_lesion_1167,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031845.jpg,NV,ISIC_0031845,upper extremity,HAM_0007203,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033590.jpg,NV,ISIC_0033590,palms/soles,HAM_0005740,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055957.jpg,BCC,ISIC_0055957,head/neck,BCN_0001509,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033226.jpg,MEL,ISIC_0033226,upper extremity,HAM_0000799,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025663.jpg,MEL,ISIC_0025663,upper extremity,HAM_0006171,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065019.jpg,NV,ISIC_0065019,anterior torso,BCN_0003534,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054481.jpg,BCC,ISIC_0054481,unknown,BCN_0001126,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059605.jpg,MEL,ISIC_0059605,palms/soles,BCN_0004978,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056024.jpg,BCC,ISIC_0056024,lower extremity,BCN_0000015,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056298.jpg,MEL,ISIC_0056298,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069273.jpg,MEL,ISIC_0069273,head/neck,BCN_0000880,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064910.jpg,MEL,ISIC_0064910,head/neck,BCN_0005161,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056607.jpg,BCC,ISIC_0056607,upper extremity,BCN_0004008,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053886.jpg,NV,ISIC_0053886,anterior torso,BCN_0000253,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072516.jpg,MEL,ISIC_0072516,lower extremity,BCN_0004425,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071554.jpg,NV,ISIC_0071554,palms/soles,BCN_0002126,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032020.jpg,NV,ISIC_0032020,lower extremity,HAM_0007437,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070355.jpg,BCC,ISIC_0070355,head/neck,BCN_0001874,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070201.jpg,BCC,ISIC_0070201,anterior torso,BCN_0000381,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060586.jpg,MEL,ISIC_0060586,upper extremity,BCN_0005611,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060239.jpg,MEL,ISIC_0060239,anterior torso,BCN_0003725,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072254.jpg,BCC,ISIC_0072254,lower extremity,BCN_0001160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072473.jpg,MEL,ISIC_0072473,anterior torso,BCN_0001286,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072773.jpg,MEL,ISIC_0072773,lower extremity,BCN_0005422,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059382.jpg,MEL,ISIC_0059382,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066292.jpg,BCC,ISIC_0066292,anterior torso,BCN_0000640,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053583.jpg,BCC,ISIC_0053583,anterior torso,BCN_0001245,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071450.jpg,BCC,ISIC_0071450,head/neck,BCN_0005287,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025964.jpg,MEL,ISIC_0025964,anterior torso,HAM_0000871,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063464.jpg,MEL,ISIC_0063464,head/neck,BCN_0002806,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031009.jpg,BCC,ISIC_0031009,lower extremity,HAM_0001434,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025927.jpg,MEL,ISIC_0025927,upper extremity,HAM_0002557,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013663_downsampled.jpg,MEL,ISIC_0013663_downsampled,upper extremity,MSK4_0010102,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055283.jpg,NV,ISIC_0055283,lower extremity,BCN_0001732,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026089.jpg,MEL,ISIC_0026089,posterior torso,HAM_0002196,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029951.jpg,BCC,ISIC_0029951,lower extremity,HAM_0005973,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031055.jpg,NV,ISIC_0031055,anterior torso,HAM_0004180,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024745.jpg,NV,ISIC_0024745,lower extremity,HAM_0007437,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027805.jpg,NV,ISIC_0027805,lower extremity,HAM_0003962,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029121.jpg,NV,ISIC_0029121,posterior torso,HAM_0002368,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026360.jpg,MEL,ISIC_0026360,posterior torso,HAM_0003990,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032696.jpg,BCC,ISIC_0032696,posterior torso,HAM_0000993,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063597.jpg,BCC,ISIC_0063597,lower extremity,BCN_0004596,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065328.jpg,BCC,ISIC_0065328,anterior torso,BCN_0000381,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055327.jpg,MEL,ISIC_0055327,anterior torso,BCN_0003850,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028568.jpg,BCC,ISIC_0028568,lower extremity,HAM_0001434,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031623.jpg,NV,ISIC_0031623,posterior torso,HAM_0005625,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057591.jpg,MEL,ISIC_0057591,lower extremity,BCN_0005160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025544.jpg,NV,ISIC_0025544,head/neck,HAM_0001420,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062477.jpg,MEL,ISIC_0062477,lower extremity,BCN_0005160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032685.jpg,MEL,ISIC_0032685,posterior torso,HAM_0005608,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0010229.jpg,NV,ISIC_0010229,anterior torso,unknown_lesion_895,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027565.jpg,NV,ISIC_0027565,unknown,HAM_0004733,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058387.jpg,BCC,ISIC_0058387,lower extremity,BCN_0001767,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054191.jpg,BCC,ISIC_0054191,anterior torso,BCN_0005247,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054070.jpg,MEL,ISIC_0054070,lower extremity,BCN_0001109,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032269.jpg,MEL,ISIC_0032269,posterior torso,HAM_0003256,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071778.jpg,MEL,ISIC_0071778,upper extremity,BCN_0002287,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066952.jpg,MEL,ISIC_0066952,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066565.jpg,NV,ISIC_0066565,anterior torso,BCN_0005498,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057256.jpg,NV,ISIC_0057256,lower extremity,BCN_0004434,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065191.jpg,MEL,ISIC_0065191,lower extremity,BCN_0005160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026940.jpg,BCC,ISIC_0026940,lower extremity,HAM_0005973,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072471.jpg,BCC,ISIC_0072471,upper extremity,BCN_0004891,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031764.jpg,NV,ISIC_0031764,lower extremity,HAM_0003454,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072851.jpg,BCC,ISIC_0072851,lower extremity,BCN_0003871,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014890_downsampled.jpg,NV,ISIC_0014890_downsampled,anterior torso,unknown_lesion_1687,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026597.jpg,NV,ISIC_0026597,unknown,HAM_0002339,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062108.jpg,BCC,ISIC_0062108,lower extremity,BCN_0004564,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033134.jpg,NV,ISIC_0033134,lower extremity,HAM_0001943,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028046.jpg,NV,ISIC_0028046,lower extremity,HAM_0003719,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071185.jpg,NV,ISIC_0071185,anterior torso,BCN_0002014,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0012961_downsampled.jpg,NV,ISIC_0012961_downsampled,upper extremity,MSK4_0011462,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013740_downsampled.jpg,MEL,ISIC_0013740_downsampled,posterior torso,MSK4_0010649,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069142.jpg,NV,ISIC_0069142,head/neck,BCN_0005007,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066884.jpg,NV,ISIC_0066884,lower extremity,BCN_0003390,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072035.jpg,BCC,ISIC_0072035,anterior torso,BCN_0000640,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0034065.jpg,MEL,ISIC_0034065,unknown,HAM_0005748,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066597.jpg,NV,ISIC_0066597,lower extremity,BCN_0003234,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029909.jpg,MEL,ISIC_0029909,head/neck,HAM_0001266,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025060.jpg,NV,ISIC_0025060,unknown,HAM_0004394,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028883.jpg,NV,ISIC_0028883,unknown,HAM_0003372,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070490.jpg,BCC,ISIC_0070490,anterior torso,BCN_0000056,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025715.jpg,NV,ISIC_0025715,lower extremity,HAM_0007111,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030755.jpg,BCC,ISIC_0030755,lower extremity,HAM_0001654,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029512.jpg,MEL,ISIC_0029512,lower extremity,HAM_0004784,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025493.jpg,NV,ISIC_0025493,upper extremity,HAM_0000614,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061944.jpg,MEL,ISIC_0061944,anterior torso,BCN_0001991,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062201.jpg,NV,ISIC_0062201,lower extremity,BCN_0004434,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028657.jpg,NV,ISIC_0028657,lower extremity,HAM_0006597,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057028.jpg,NV,ISIC_0057028,anterior torso,BCN_0000756,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0073200.jpg,BCC,ISIC_0073200,head/neck,BCN_0000885,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053867.jpg,BCC,ISIC_0053867,anterior torso,BCN_0004967,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032326.jpg,NV,ISIC_0032326,unknown,HAM_0000280,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058067.jpg,BCC,ISIC_0058067,head/neck,BCN_0003399,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060671.jpg,MEL,ISIC_0060671,anterior torso,BCN_0001991,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032728.jpg,NV,ISIC_0032728,anterior torso,HAM_0004550,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030141.jpg,NV,ISIC_0030141,posterior torso,HAM_0001798,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071236.jpg,BCC,ISIC_0071236,anterior torso,BCN_0000449,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032413.jpg,NV,ISIC_0032413,unknown,HAM_0004723,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027195.jpg,NV,ISIC_0027195,head/neck,HAM_0006279,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070657.jpg,MEL,ISIC_0070657,anterior torso,BCN_0001991,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060133.jpg,BCC,ISIC_0060133,head/neck,BCN_0003399,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072650.jpg,NV,ISIC_0072650,anterior torso,BCN_0003356,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055758.jpg,BCC,ISIC_0055758,anterior torso,BCN_0004179,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059490.jpg,MEL,ISIC_0059490,anterior torso,BCN_0004188,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068314.jpg,NV,ISIC_0068314,anterior torso,BCN_0004415,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0015638_downsampled.jpg,NV,ISIC_0015638_downsampled,lower extremity,unknown_lesion_1958,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067770.jpg,BCC,ISIC_0067770,head/neck,BCN_0000885,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014829_downsampled.jpg,NV,ISIC_0014829_downsampled,upper extremity,unknown_lesion_1654,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056876.jpg,MEL,ISIC_0056876,head/neck,BCN_0001694,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070606.jpg,NV,ISIC_0070606,head/neck,BCN_0003973,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062342.jpg,BCC,ISIC_0062342,lower extremity,BCN_0003871,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062133.jpg,MEL,ISIC_0062133,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068766.jpg,MEL,ISIC_0068766,head/neck,BCN_0002956,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054658.jpg,BCC,ISIC_0054658,head/neck,BCN_0000215,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068327.jpg,NV,ISIC_0068327,lower extremity,BCN_0003234,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054993.jpg,BCC,ISIC_0054993,anterior torso,BCN_0003833,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066637.jpg,MEL,ISIC_0066637,lower extremity,BCN_0005422,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056428.jpg,MEL,ISIC_0056428,anterior torso,BCN_0000627,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033323.jpg,MEL,ISIC_0033323,posterior torso,HAM_0005608,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072818.jpg,BCC,ISIC_0072818,upper extremity,BCN_0004891,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054448.jpg,BCC,ISIC_0054448,anterior torso,BCN_0000213,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059361.jpg,MEL,ISIC_0059361,anterior torso,BCN_0001354,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029725.jpg,NV,ISIC_0029725,posterior torso,HAM_0004724,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031389.jpg,MEL,ISIC_0031389,lower extremity,HAM_0002591,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064632.jpg,MEL,ISIC_0064632,anterior torso,BCN_0001563,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059845.jpg,BCC,ISIC_0059845,lower extremity,BCN_0000015,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057980.jpg,MEL,ISIC_0057980,head/neck,BCN_0001249,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029896.jpg,NV,ISIC_0029896,unknown,HAM_0001352,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028897.jpg,MEL,ISIC_0028897,posterior torso,HAM_0002109,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072267.jpg,BCC,ISIC_0072267,lower extremity,BCN_0004564,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028677.jpg,BCC,ISIC_0028677,upper extremity,HAM_0001711,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056319.jpg,MEL,ISIC_0056319,lower extremity,BCN_0005422,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053508.jpg,MEL,ISIC_0053508,oral/genital,BCN_0005607,0.85
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068383.jpg,MEL,ISIC_0068383,anterior torso,BCN_0000627,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026448.jpg,NV,ISIC_0026448,unknown,HAM_0002659,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056640.jpg,BCC,ISIC_0056640,lower extremity,BCN_0004564,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055491.jpg,MEL,ISIC_0055491,anterior torso,BCN_0004017,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070065.jpg,MEL,ISIC_0070065,head/neck,BCN_0004070,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060832.jpg,MEL,ISIC_0060832,anterior torso,BCN_0000667,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072923.jpg,MEL,ISIC_0072923,head/neck,BCN_0001249,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030334.jpg,NV,ISIC_0030334,upper extremity,HAM_0001497,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024328.jpg,NV,ISIC_0024328,posterior torso,HAM_0002701,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069485.jpg,BCC,ISIC_0069485,lower extremity,BCN_0003871,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059097.jpg,NV,ISIC_0059097,anterior torso,BCN_0000996,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025216.jpg,NV,ISIC_0025216,upper extremity,HAM_0007549,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070149.jpg,MEL,ISIC_0070149,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055984.jpg,MEL,ISIC_0055984,anterior torso,BCN_0001991,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025824.jpg,BCC,ISIC_0025824,anterior torso,HAM_0001331,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026048.jpg,NV,ISIC_0026048,posterior torso,HAM_0002271,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026359.jpg,NV,ISIC_0026359,posterior torso,HAM_0007504,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025432.jpg,NV,ISIC_0025432,unknown,HAM_0006920,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026847.jpg,MEL,ISIC_0026847,posterior torso,HAM_0002099,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071699.jpg,MEL,ISIC_0071699,upper extremity,BCN_0001821,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065249.jpg,BCC,ISIC_0065249,anterior torso,BCN_0003081,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014498_downsampled.jpg,NV,ISIC_0014498_downsampled,anterior torso,MSK4_0012046,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061555.jpg,BCC,ISIC_0061555,anterior torso,BCN_0004426,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061596.jpg,BCC,ISIC_0061596,head/neck,BCN_0000984,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025313.jpg,MEL,ISIC_0025313,lower extremity,HAM_0001378,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055254.jpg,MEL,ISIC_0055254,upper extremity,BCN_0003583,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064926.jpg,MEL,ISIC_0064926,anterior torso,BCN_0001082,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067595.jpg,BCC,ISIC_0067595,head/neck,BCN_0001509,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032062.jpg,NV,ISIC_0032062,unknown,HAM_0007366,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061922.jpg,MEL,ISIC_0061922,lower extremity,BCN_0001109,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054193.jpg,MEL,ISIC_0054193,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061680.jpg,MEL,ISIC_0061680,anterior torso,BCN_0001991,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057406.jpg,MEL,ISIC_0057406,upper extremity,BCN_0005611,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054941.jpg,MEL,ISIC_0054941,anterior torso,BCN_0000627,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031080.jpg,NV,ISIC_0031080,anterior torso,HAM_0005561,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000478.jpg,NV,ISIC_0000478,lateral torso,unknown_lesion_407,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000159.jpg,MEL,ISIC_0000159,upper extremity,unknown_lesion_149,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024332.jpg,BCC,ISIC_0024332,unknown,HAM_0002240,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054782.jpg,BCC,ISIC_0054782,head/neck,BCN_0005555,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026853.jpg,MEL,ISIC_0026853,posterior torso,HAM_0002194,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030818.jpg,MEL,ISIC_0030818,lower extremity,HAM_0002838,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0003559_downsampled.jpg,NV,ISIC_0003559_downsampled,unknown,unknown_lesion_573,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014453_downsampled.jpg,NV,ISIC_0014453_downsampled,anterior torso,MSK4_0010452,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061945.jpg,MEL,ISIC_0061945,lower extremity,BCN_0001109,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060698.jpg,MEL,ISIC_0060698,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024972.jpg,MEL,ISIC_0024972,head/neck,HAM_0001284,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000431_downsampled.jpg,NV,ISIC_0000431_downsampled,unknown,unknown_lesion_373,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024548.jpg,NV,ISIC_0024548,unknown,HAM_0007441,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013184_downsampled.jpg,MEL,ISIC_0013184_downsampled,anterior torso,MSK4_0010029,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025417.jpg,BCC,ISIC_0025417,upper extremity,HAM_0002577,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071568.jpg,MEL,ISIC_0071568,lower extremity,BCN_0000975,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0012756_downsampled.jpg,MEL,ISIC_0012756_downsampled,anterior torso,MSK4_0010029,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060649.jpg,NV,ISIC_0060649,anterior torso,BCN_0001713,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066214.jpg,BCC,ISIC_0066214,lower extremity,BCN_0004564,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027164.jpg,NV,ISIC_0027164,anterior torso,HAM_0004328,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013736_downsampled.jpg,MEL,ISIC_0013736_downsampled,posterior torso,MSK4_0010167,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060748.jpg,BCC,ISIC_0060748,anterior torso,BCN_0005260,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054365.jpg,BCC,ISIC_0054365,head/neck,BCN_0005539,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070673.jpg,BCC,ISIC_0070673,head/neck,BCN_0005242,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032873.jpg,MEL,ISIC_0032873,unknown,HAM_0003174,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062096.jpg,BCC,ISIC_0062096,head/neck,BCN_0005206,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072813.jpg,BCC,ISIC_0072813,lower extremity,BCN_0002768,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059990.jpg,NV,ISIC_0059990,anterior torso,BCN_0002185,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058879.jpg,NV,ISIC_0058879,anterior torso,BCN_0005456,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028445.jpg,MEL,ISIC_0028445,anterior torso,HAM_0000492,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028860.jpg,MEL,ISIC_0028860,posterior torso,HAM_0006779,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025198.jpg,NV,ISIC_0025198,anterior torso,HAM_0006408,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027383.jpg,NV,ISIC_0027383,lower extremity,HAM_0004037,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032383.jpg,NV,ISIC_0032383,lower extremity,HAM_0005333,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032178.jpg,NV,ISIC_0032178,unknown,HAM_0000651,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014061_downsampled.jpg,MEL,ISIC_0014061_downsampled,posterior torso,MSK4_0010932,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024403.jpg,BCC,ISIC_0024403,posterior torso,HAM_0003680,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032220.jpg,MEL,ISIC_0032220,posterior torso,HAM_0003521,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061671.jpg,BCC,ISIC_0061671,anterior torso,BCN_0005569,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0001852_downsampled.jpg,NV,ISIC_0001852_downsampled,unknown,unknown_lesion_533,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055783.jpg,MEL,ISIC_0055783,anterior torso,BCN_0005438,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065161.jpg,NV,ISIC_0065161,lower extremity,BCN_0003390,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025324.jpg,MEL,ISIC_0025324,lower extremity,HAM_0004121,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032450.jpg,MEL,ISIC_0032450,posterior torso,HAM_0006908,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064271.jpg,BCC,ISIC_0064271,head/neck,BCN_0005242,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072916.jpg,BCC,ISIC_0072916,anterior torso,BCN_0005690,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033047.jpg,MEL,ISIC_0033047,lower extremity,HAM_0002824,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055305.jpg,NV,ISIC_0055305,anterior torso,BCN_0004881,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026996.jpg,MEL,ISIC_0026996,lower extremity,HAM_0004121,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064055.jpg,BCC,ISIC_0064055,upper extremity,BCN_0004008,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055891.jpg,BCC,ISIC_0055891,head/neck,BCN_0005539,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026952.jpg,BCC,ISIC_0026952,posterior torso,HAM_0002167,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054994.jpg,BCC,ISIC_0054994,anterior torso,BCN_0005247,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0010235.jpg,MEL,ISIC_0010235,upper extremity,unknown_lesion_900,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062332.jpg,BCC,ISIC_0062332,head/neck,BCN_0004515,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054763.jpg,MEL,ISIC_0054763,palms/soles,BCN_0002989,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029628.jpg,NV,ISIC_0029628,upper extremity,HAM_0004227,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071951.jpg,MEL,ISIC_0071951,head/neck,BCN_0004815,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054159.jpg,MEL,ISIC_0054159,head/neck,BCN_0003799,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0009955.jpg,MEL,ISIC_0009955,lower extremity,unknown_lesion_747,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031098.jpg,NV,ISIC_0031098,lower extremity,HAM_0006504,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026082.jpg,NV,ISIC_0026082,lower extremity,HAM_0002379,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0073113.jpg,BCC,ISIC_0073113,head/neck,BCN_0000345,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072806.jpg,NV,ISIC_0072806,anterior torso,BCN_0003653,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060276.jpg,NV,ISIC_0060276,anterior torso,BCN_0004846,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070717.jpg,BCC,ISIC_0070717,lower extremity,BCN_0003871,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030516.jpg,NV,ISIC_0030516,anterior torso,HAM_0003312,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024958.jpg,MEL,ISIC_0024958,lower extremity,HAM_0002613,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0009992.jpg,MEL,ISIC_0009992,anterior torso,unknown_lesion_777,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057161.jpg,BCC,ISIC_0057161,anterior torso,BCN_0001972,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033611.jpg,MEL,ISIC_0033611,upper extremity,HAM_0000799,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000283.jpg,MEL,ISIC_0000283,upper extremity,unknown_lesion_259,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029539.jpg,BCC,ISIC_0029539,posterior torso,HAM_0005971,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065805.jpg,BCC,ISIC_0065805,anterior torso,BCN_0003115,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026251.jpg,NV,ISIC_0026251,head/neck,HAM_0004380,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055450.jpg,MEL,ISIC_0055450,head/neck,BCN_0002152,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069707.jpg,NV,ISIC_0069707,palms/soles,BCN_0002883,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067747.jpg,MEL,ISIC_0067747,anterior torso,BCN_0005525,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0009583_downsampled.jpg,NV,ISIC_0009583_downsampled,unknown,unknown_lesion_673,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028709.jpg,MEL,ISIC_0028709,posterior torso,HAM_0002197,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072458.jpg,NV,ISIC_0072458,anterior torso,BCN_0003356,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054535.jpg,BCC,ISIC_0054535,upper extremity,BCN_0001030,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064742.jpg,MEL,ISIC_0064742,head/neck,BCN_0002806,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0007038_downsampled.jpg,NV,ISIC_0007038_downsampled,unknown,unknown_lesion_613,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014944_downsampled.jpg,NV,ISIC_0014944_downsampled,posterior torso,unknown_lesion_1722,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061157.jpg,BCC,ISIC_0061157,upper extremity,BCN_0001030,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057634.jpg,MEL,ISIC_0057634,head/neck,BCN_0001249,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033396.jpg,NV,ISIC_0033396,posterior torso,HAM_0004367,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059220.jpg,NV,ISIC_0059220,upper extremity,BCN_0003354,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028185.jpg,NV,ISIC_0028185,lower extremity,HAM_0005252,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070973.jpg,MEL,ISIC_0070973,anterior torso,BCN_0004673,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027449.jpg,NV,ISIC_0027449,anterior torso,HAM_0006410,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065407.jpg,BCC,ISIC_0065407,anterior torso,BCN_0003081,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029885.jpg,MEL,ISIC_0029885,posterior torso,HAM_0000856,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062063.jpg,MEL,ISIC_0062063,anterior torso,BCN_0002758,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0034118.jpg,MEL,ISIC_0034118,lower extremity,HAM_0002824,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058105.jpg,NV,ISIC_0058105,anterior torso,BCN_0003365,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024532.jpg,NV,ISIC_0024532,anterior torso,HAM_0004415,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054289.jpg,MEL,ISIC_0054289,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069002.jpg,BCC,ISIC_0069002,head/neck,BCN_0001888,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026379.jpg,NV,ISIC_0026379,unknown,HAM_0003658,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063083.jpg,BCC,ISIC_0063083,lower extremity,BCN_0002387,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024472.jpg,BCC,ISIC_0024472,lower extremity,HAM_0001654,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055454.jpg,MEL,ISIC_0055454,head/neck,BCN_0004815,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070694.jpg,NV,ISIC_0070694,anterior torso,BCN_0001483,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027321.jpg,NV,ISIC_0027321,upper extremity,HAM_0006215,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066921.jpg,MEL,ISIC_0066921,palms/soles,BCN_0004110,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030204.jpg,NV,ISIC_0030204,posterior torso,HAM_0005104,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056685.jpg,BCC,ISIC_0056685,lower extremity,BCN_0002838,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061022.jpg,BCC,ISIC_0061022,head/neck,BCN_0001442,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062473.jpg,BCC,ISIC_0062473,anterior torso,BCN_0001323,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068887.jpg,NV,ISIC_0068887,head/neck,BCN_0000443,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064396.jpg,MEL,ISIC_0064396,head/neck,BCN_0002806,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033001.jpg,BCC,ISIC_0033001,posterior torso,HAM_0000263,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031157.jpg,NV,ISIC_0031157,unknown,HAM_0003238,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0034140.jpg,MEL,ISIC_0034140,posterior torso,HAM_0005636,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072663.jpg,BCC,ISIC_0072663,head/neck,BCN_0005242,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028349.jpg,NV,ISIC_0028349,unknown,HAM_0003841,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029670.jpg,NV,ISIC_0029670,lower extremity,HAM_0006016,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064841.jpg,BCC,ISIC_0064841,anterior torso,BCN_0005371,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071436.jpg,NV,ISIC_0071436,upper extremity,BCN_0005078,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061709.jpg,MEL,ISIC_0061709,head/neck,BCN_0003799,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027004.jpg,BCC,ISIC_0027004,anterior torso,HAM_0003826,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072611.jpg,NV,ISIC_0072611,palms/soles,BCN_0002126,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071335.jpg,MEL,ISIC_0071335,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070344.jpg,MEL,ISIC_0070344,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063877.jpg,BCC,ISIC_0063877,anterior torso,BCN_0002230,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024605.jpg,NV,ISIC_0024605,anterior torso,HAM_0001045,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033008.jpg,NV,ISIC_0033008,upper extremity,HAM_0005115,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055728.jpg,BCC,ISIC_0055728,anterior torso,BCN_0001245,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059997.jpg,BCC,ISIC_0059997,anterior torso,BCN_0002481,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065549.jpg,BCC,ISIC_0065549,anterior torso,BCN_0005690,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072748.jpg,MEL,ISIC_0072748,anterior torso,BCN_0000627,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058559.jpg,MEL,ISIC_0058559,lower extremity,BCN_0004425,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072732.jpg,BCC,ISIC_0072732,anterior torso,BCN_0001972,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033508.jpg,NV,ISIC_0033508,unknown,HAM_0004581,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072056.jpg,NV,ISIC_0072056,anterior torso,BCN_0002554,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026839.jpg,NV,ISIC_0026839,posterior torso,HAM_0001971,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072630.jpg,BCC,ISIC_0072630,anterior torso,BCN_0004967,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028815.jpg,BCC,ISIC_0028815,head/neck,HAM_0004967,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071385.jpg,BCC,ISIC_0071385,anterior torso,BCN_0003159,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055663.jpg,BCC,ISIC_0055663,head/neck,BCN_0004229,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029173.jpg,NV,ISIC_0029173,anterior torso,HAM_0003292,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030077.jpg,NV,ISIC_0030077,anterior torso,HAM_0003828,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067128.jpg,MEL,ISIC_0067128,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032626.jpg,MEL,ISIC_0032626,upper extremity,HAM_0005953,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066620.jpg,BCC,ISIC_0066620,anterior torso,BCN_0000585,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033794.jpg,NV,ISIC_0033794,anterior torso,HAM_0007052,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0009988.jpg,NV,ISIC_0009988,anterior torso,unknown_lesion_774,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025300.jpg,NV,ISIC_0025300,upper extremity,HAM_0006221,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0016015_downsampled.jpg,NV,ISIC_0016015_downsampled,unknown,unknown_lesion_2033,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068239.jpg,MEL,ISIC_0068239,lower extremity,BCN_0001109,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0073023.jpg,BCC,ISIC_0073023,head/neck,BCN_0004131,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069110.jpg,NV,ISIC_0069110,palms/soles,BCN_0001493,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0012768_downsampled.jpg,NV,ISIC_0012768_downsampled,head/neck,MSK4_0011280,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013652_downsampled.jpg,MEL,ISIC_0013652_downsampled,lower extremity,MSK4_0010839,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014722_downsampled.jpg,MEL,ISIC_0014722_downsampled,posterior torso,unknown_lesion_1580,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033558.jpg,NV,ISIC_0033558,palms/soles,HAM_0005740,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056890.jpg,NV,ISIC_0056890,anterior torso,BCN_0000756,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060198.jpg,BCC,ISIC_0060198,anterior torso,BCN_0003081,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054772.jpg,BCC,ISIC_0054772,upper extremity,BCN_0004891,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025433.jpg,BCC,ISIC_0025433,lower extremity,HAM_0005410,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054977.jpg,BCC,ISIC_0054977,head/neck,BCN_0001442,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032569.jpg,MEL,ISIC_0032569,posterior torso,HAM_0002235,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071392.jpg,MEL,ISIC_0071392,lower extremity,BCN_0001109,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068611.jpg,BCC,ISIC_0068611,anterior torso,BCN_0002615,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0010327.jpg,NV,ISIC_0010327,lower extremity,unknown_lesion_932,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069032.jpg,BCC,ISIC_0069032,head/neck,BCN_0000984,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0012150_downsampled.jpg,NV,ISIC_0012150_downsampled,unknown,unknown_lesion_1262,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057885.jpg,BCC,ISIC_0057885,head/neck,BCN_0003109,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063267.jpg,NV,ISIC_0063267,anterior torso,BCN_0001041,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026881.jpg,NV,ISIC_0026881,posterior torso,HAM_0006021,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056141.jpg,MEL,ISIC_0056141,anterior torso,BCN_0004673,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025645.jpg,NV,ISIC_0025645,anterior torso,HAM_0002543,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063572.jpg,BCC,ISIC_0063572,upper extremity,BCN_0000840,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063290.jpg,BCC,ISIC_0063290,head/neck,BCN_0005022,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062809.jpg,MEL,ISIC_0062809,head/neck,BCN_0004815,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070021.jpg,BCC,ISIC_0070021,anterior torso,BCN_0003875,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057313.jpg,MEL,ISIC_0057313,upper extremity,BCN_0005611,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070519.jpg,NV,ISIC_0070519,lower extremity,BCN_0003234,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065877.jpg,BCC,ISIC_0065877,anterior torso,BCN_0003633,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058319.jpg,MEL,ISIC_0058319,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029850.jpg,NV,ISIC_0029850,anterior torso,HAM_0006714,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025003.jpg,NV,ISIC_0025003,lower extremity,HAM_0004269,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061206.jpg,BCC,ISIC_0061206,anterior torso,BCN_0003875,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0010591.jpg,MEL,ISIC_0010591,posterior torso,unknown_lesion_1042,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033205.jpg,BCC,ISIC_0033205,lower extremity,HAM_0001138,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057656.jpg,MEL,ISIC_0057656,anterior torso,BCN_0000667,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065614.jpg,NV,ISIC_0065614,anterior torso,BCN_0000017,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062367.jpg,NV,ISIC_0062367,anterior torso,BCN_0005356,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059692.jpg,BCC,ISIC_0059692,anterior torso,BCN_0004151,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033538.jpg,MEL,ISIC_0033538,lower extremity,HAM_0006824,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069583.jpg,MEL,ISIC_0069583,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067380.jpg,BCC,ISIC_0067380,head/neck,BCN_0000834,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070199.jpg,BCC,ISIC_0070199,lower extremity,BCN_0001160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068363.jpg,BCC,ISIC_0068363,anterior torso,BCN_0004553,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065385.jpg,BCC,ISIC_0065385,unknown,BCN_0001126,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026505.jpg,NV,ISIC_0026505,unknown,HAM_0003047,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032429.jpg,BCC,ISIC_0032429,lower extremity,HAM_0005973,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029644.jpg,BCC,ISIC_0029644,lower extremity,HAM_0005184,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058630.jpg,MEL,ISIC_0058630,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0034058.jpg,BCC,ISIC_0034058,posterior torso,HAM_0000263,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071482.jpg,BCC,ISIC_0071482,unknown,BCN_0000155,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062447.jpg,MEL,ISIC_0062447,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053672.jpg,BCC,ISIC_0053672,head/neck,BCN_0001509,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059436.jpg,NV,ISIC_0059436,lower extremity,BCN_0005597,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056709.jpg,BCC,ISIC_0056709,head/neck,BCN_0005242,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070834.jpg,NV,ISIC_0070834,upper extremity,BCN_0002605,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069235.jpg,BCC,ISIC_0069235,head/neck,BCN_0004515,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069038.jpg,BCC,ISIC_0069038,head/neck,BCN_0000524,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063298.jpg,BCC,ISIC_0063298,upper extremity,BCN_0004008,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027316.jpg,NV,ISIC_0027316,unknown,HAM_0004437,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069347.jpg,NV,ISIC_0069347,anterior torso,BCN_0002554,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059748.jpg,BCC,ISIC_0059748,anterior torso,BCN_0000585,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000354.jpg,NV,ISIC_0000354,anterior torso,unknown_lesion_318,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056152.jpg,MEL,ISIC_0056152,anterior torso,BCN_0005525,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025814.jpg,MEL,ISIC_0025814,posterior torso,HAM_0002194,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055779.jpg,BCC,ISIC_0055779,head/neck,BCN_0002658,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062196.jpg,MEL,ISIC_0062196,lower extremity,BCN_0000549,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059673.jpg,BCC,ISIC_0059673,anterior torso,BCN_0004772,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070237.jpg,BCC,ISIC_0070237,lower extremity,BCN_0002768,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024311.jpg,NV,ISIC_0024311,posterior torso,HAM_0000981,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061807.jpg,NV,ISIC_0061807,palms/soles,BCN_0002213,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025424.jpg,NV,ISIC_0025424,lower extremity,HAM_0006464,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054462.jpg,MEL,ISIC_0054462,upper extremity,BCN_0001857,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065334.jpg,BCC,ISIC_0065334,anterior torso,BCN_0003753,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030534.jpg,NV,ISIC_0030534,posterior torso,HAM_0002647,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025520.jpg,MEL,ISIC_0025520,posterior torso,HAM_0005600,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059111.jpg,BCC,ISIC_0059111,anterior torso,BCN_0003833,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027229.jpg,BCC,ISIC_0027229,anterior torso,HAM_0003826,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032650.jpg,NV,ISIC_0032650,posterior torso,HAM_0002908,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058964.jpg,BCC,ISIC_0058964,upper extremity,BCN_0001030,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031183.jpg,NV,ISIC_0031183,anterior torso,HAM_0002292,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063367.jpg,MEL,ISIC_0063367,upper extremity,BCN_0005031,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064752.jpg,MEL,ISIC_0064752,palms/soles,BCN_0001078,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028586.jpg,NV,ISIC_0028586,posterior torso,HAM_0000690,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061860.jpg,NV,ISIC_0061860,anterior torso,BCN_0003356,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067130.jpg,BCC,ISIC_0067130,anterior torso,BCN_0004603,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0009898.jpg,MEL,ISIC_0009898,upper extremity,unknown_lesion_700,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057180.jpg,MEL,ISIC_0057180,anterior torso,BCN_0004017,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062240.jpg,BCC,ISIC_0062240,head/neck,BCN_0003818,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065422.jpg,BCC,ISIC_0065422,anterior torso,BCN_0003159,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025607.jpg,NV,ISIC_0025607,unknown,HAM_0004757,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057218.jpg,MEL,ISIC_0057218,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031683.jpg,NV,ISIC_0031683,lower extremity,HAM_0002579,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069260.jpg,MEL,ISIC_0069260,palms/soles,BCN_0004110,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027917.jpg,NV,ISIC_0027917,upper extremity,HAM_0003117,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063892.jpg,BCC,ISIC_0063892,anterior torso,BCN_0004499,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053545.jpg,MEL,ISIC_0053545,lower extremity,BCN_0005160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056631.jpg,BCC,ISIC_0056631,anterior torso,BCN_0003159,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057974.jpg,MEL,ISIC_0057974,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028457.jpg,BCC,ISIC_0028457,head/neck,HAM_0007446,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064863.jpg,MEL,ISIC_0064863,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027283.jpg,NV,ISIC_0027283,unknown,HAM_0000265,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031173.jpg,NV,ISIC_0031173,lower extremity,HAM_0005802,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070539.jpg,BCC,ISIC_0070539,upper extremity,BCN_0004891,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069537.jpg,BCC,ISIC_0069537,head/neck,BCN_0004197,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064456.jpg,BCC,ISIC_0064456,anterior torso,BCN_0003593,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032958.jpg,MEL,ISIC_0032958,lower extremity,HAM_0006824,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033278.jpg,MEL,ISIC_0033278,anterior torso,HAM_0003983,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031779.jpg,MEL,ISIC_0031779,head/neck,HAM_0001284,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027741.jpg,NV,ISIC_0027741,unknown,HAM_0000419,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057506.jpg,NV,ISIC_0057506,upper extremity,BCN_0002605,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0012939_downsampled.jpg,NV,ISIC_0012939_downsampled,anterior torso,MSK4_0011443,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066148.jpg,BCC,ISIC_0066148,head/neck,BCN_0001509,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025783.jpg,MEL,ISIC_0025783,posterior torso,HAM_0000417,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066053.jpg,NV,ISIC_0066053,anterior torso,BCN_0001483,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069047.jpg,BCC,ISIC_0069047,head/neck,BCN_0004131,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000095_downsampled.jpg,NV,ISIC_0000095_downsampled,unknown,unknown_lesion_88,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027702.jpg,MEL,ISIC_0027702,posterior torso,HAM_0006004,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057714.jpg,NV,ISIC_0057714,palms/soles,BCN_0001493,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027941.jpg,NV,ISIC_0027941,unknown,HAM_0002290,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054334.jpg,MEL,ISIC_0054334,palms/soles,BCN_0002989,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031739.jpg,NV,ISIC_0031739,unknown,HAM_0001748,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060452.jpg,NV,ISIC_0060452,palms/soles,BCN_0002883,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026035.jpg,NV,ISIC_0026035,upper extremity,HAM_0001043,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070689.jpg,MEL,ISIC_0070689,anterior torso,BCN_0004673,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024558.jpg,NV,ISIC_0024558,anterior torso,HAM_0003041,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024999.jpg,MEL,ISIC_0024999,upper extremity,HAM_0001986,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065303.jpg,BCC,ISIC_0065303,anterior torso,BCN_0004553,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055916.jpg,BCC,ISIC_0055916,head/neck,BCN_0000461,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064223.jpg,BCC,ISIC_0064223,upper extremity,BCN_0004891,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070472.jpg,BCC,ISIC_0070472,head/neck,BCN_0003818,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070529.jpg,BCC,ISIC_0070529,anterior torso,BCN_0004179,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0012274_downsampled.jpg,NV,ISIC_0012274_downsampled,unknown,unknown_lesion_1331,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056263.jpg,MEL,ISIC_0056263,palms/soles,BCN_0004110,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014546_downsampled.jpg,MEL,ISIC_0014546_downsampled,posterior torso,MSK4_0010966,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065876.jpg,BCC,ISIC_0065876,lower extremity,BCN_0002387,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066282.jpg,BCC,ISIC_0066282,upper extremity,BCN_0000840,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070843.jpg,BCC,ISIC_0070843,anterior torso,BCN_0000585,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058654.jpg,BCC,ISIC_0058654,head/neck,BCN_0001888,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026612.jpg,NV,ISIC_0026612,lower extremity,HAM_0006561,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028930.jpg,MEL,ISIC_0028930,lower extremity,HAM_0002591,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067991.jpg,BCC,ISIC_0067991,anterior torso,BCN_0004499,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068904.jpg,BCC,ISIC_0068904,lower extremity,BCN_0001767,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063453.jpg,BCC,ISIC_0063453,anterior torso,BCN_0003833,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067312.jpg,BCC,ISIC_0067312,anterior torso,BCN_0005569,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071586.jpg,MEL,ISIC_0071586,anterior torso,BCN_0002758,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062271.jpg,BCC,ISIC_0062271,anterior torso,BCN_0003633,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054018.jpg,BCC,ISIC_0054018,anterior torso,BCN_0005371,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000030_downsampled.jpg,MEL,ISIC_0000030_downsampled,lower extremity,unknown_lesion_29,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0073148.jpg,BCC,ISIC_0073148,head/neck,BCN_0002658,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033569.jpg,MEL,ISIC_0033569,posterior torso,HAM_0006566,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029699.jpg,NV,ISIC_0029699,unknown,HAM_0005241,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061456.jpg,BCC,ISIC_0061456,lower extremity,BCN_0000015,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000139_downsampled.jpg,MEL,ISIC_0000139_downsampled,unknown,unknown_lesion_131,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033122.jpg,MEL,ISIC_0033122,unknown,HAM_0004620,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032117.jpg,NV,ISIC_0032117,anterior torso,HAM_0006336,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057822.jpg,BCC,ISIC_0057822,lower extremity,BCN_0000087,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0009937.jpg,NV,ISIC_0009937,lower extremity,unknown_lesion_730,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069335.jpg,BCC,ISIC_0069335,anterior torso,BCN_0002481,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070623.jpg,MEL,ISIC_0070623,head/neck,BCN_0002956,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070891.jpg,BCC,ISIC_0070891,anterior torso,BCN_0003593,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056226.jpg,MEL,ISIC_0056226,upper extremity,BCN_0001821,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070034.jpg,BCC,ISIC_0070034,head/neck,BCN_0005555,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070573.jpg,BCC,ISIC_0070573,anterior torso,BCN_0005247,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056029.jpg,NV,ISIC_0056029,anterior torso,BCN_0000643,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054504.jpg,BCC,ISIC_0054504,anterior torso,BCN_0003833,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054975.jpg,BCC,ISIC_0054975,head/neck,BCN_0003399,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013314_downsampled.jpg,NV,ISIC_0013314_downsampled,unknown,MSK4_0010095,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055205.jpg,MEL,ISIC_0055205,head/neck,BCN_0001694,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0015050_downsampled.jpg,MEL,ISIC_0015050_downsampled,anterior torso,unknown_lesion_1786,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031643.jpg,BCC,ISIC_0031643,posterior torso,HAM_0003851,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063129.jpg,BCC,ISIC_0063129,anterior torso,BCN_0004602,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055008.jpg,MEL,ISIC_0055008,upper extremity,BCN_0005031,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028176.jpg,NV,ISIC_0028176,unknown,HAM_0002950,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060139.jpg,BCC,ISIC_0060139,anterior torso,BCN_0004221,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014454_downsampled.jpg,MEL,ISIC_0014454_downsampled,upper extremity,MSK4_0010789,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067248.jpg,MEL,ISIC_0067248,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030409.jpg,NV,ISIC_0030409,upper extremity,HAM_0001181,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026131.jpg,MEL,ISIC_0026131,upper extremity,HAM_0006171,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058770.jpg,MEL,ISIC_0058770,palms/soles,BCN_0002989,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013355_downsampled.jpg,NV,ISIC_0013355_downsampled,upper extremity,MSK4_0011777,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064512.jpg,BCC,ISIC_0064512,anterior torso,BCN_0004772,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070701.jpg,BCC,ISIC_0070701,head/neck,BCN_0005242,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033619.jpg,MEL,ISIC_0033619,unknown,HAM_0005748,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014186_downsampled.jpg,MEL,ISIC_0014186_downsampled,head/neck,MSK4_0011131,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000289.jpg,MEL,ISIC_0000289,head/neck,unknown_lesion_263,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055563.jpg,MEL,ISIC_0055563,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059491.jpg,BCC,ISIC_0059491,lower extremity,BCN_0002838,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061095.jpg,BCC,ISIC_0061095,anterior torso,BCN_0004603,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0073071.jpg,BCC,ISIC_0073071,anterior torso,BCN_0003159,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061021.jpg,MEL,ISIC_0061021,upper extremity,BCN_0005611,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071730.jpg,BCC,ISIC_0071730,head/neck,BCN_0000215,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067642.jpg,BCC,ISIC_0067642,anterior torso,BCN_0001578,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0015110_downsampled.jpg,MEL,ISIC_0015110_downsampled,upper extremity,unknown_lesion_1801,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055483.jpg,BCC,ISIC_0055483,head/neck,BCN_0003074,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027793.jpg,MEL,ISIC_0027793,head/neck,HAM_0006870,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053524.jpg,BCC,ISIC_0053524,anterior torso,BCN_0004151,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054288.jpg,MEL,ISIC_0054288,head/neck,BCN_0001694,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064751.jpg,BCC,ISIC_0064751,head/neck,BCN_0003074,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024862.jpg,NV,ISIC_0024862,unknown,HAM_0007422,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029225.jpg,NV,ISIC_0029225,unknown,HAM_0003226,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054370.jpg,BCC,ISIC_0054370,head/neck,BCN_0002491,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030430.jpg,NV,ISIC_0030430,lower extremity,HAM_0003185,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0034076.jpg,MEL,ISIC_0034076,lower extremity,HAM_0006517,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054305.jpg,NV,ISIC_0054305,anterior torso,BCN_0000279,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014076_downsampled.jpg,MEL,ISIC_0014076_downsampled,head/neck,MSK4_0010848,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066915.jpg,NV,ISIC_0066915,upper extremity,BCN_0002164,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060886.jpg,MEL,ISIC_0060886,anterior torso,BCN_0005210,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063702.jpg,BCC,ISIC_0063702,head/neck,BCN_0004131,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058787.jpg,BCC,ISIC_0058787,anterior torso,BCN_0003159,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070151.jpg,BCC,ISIC_0070151,head/neck,BCN_0001593,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032194.jpg,BCC,ISIC_0032194,head/neck,HAM_0003596,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065699.jpg,BCC,ISIC_0065699,unknown,BCN_0001337,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031949.jpg,NV,ISIC_0031949,unknown,HAM_0007412,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063693.jpg,MEL,ISIC_0063693,head/neck,BCN_0001694,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0015274_downsampled.jpg,NV,ISIC_0015274_downsampled,posterior torso,unknown_lesion_1886,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055353.jpg,BCC,ISIC_0055353,head/neck,BCN_0003074,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060972.jpg,MEL,ISIC_0060972,anterior torso,BCN_0000627,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024799.jpg,BCC,ISIC_0024799,anterior torso,HAM_0001573,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029570.jpg,MEL,ISIC_0029570,lower extremity,HAM_0002130,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032462.jpg,MEL,ISIC_0032462,upper extremity,HAM_0001274,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069001.jpg,BCC,ISIC_0069001,head/neck,BCN_0001874,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027773.jpg,NV,ISIC_0027773,posterior torso,HAM_0007360,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027507.jpg,MEL,ISIC_0027507,posterior torso,HAM_0003601,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054633.jpg,BCC,ISIC_0054633,upper extremity,BCN_0004891,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070207.jpg,MEL,ISIC_0070207,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028652.jpg,BCC,ISIC_0028652,head/neck,HAM_0001575,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057418.jpg,BCC,ISIC_0057418,head/neck,BCN_0000524,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065145.jpg,NV,ISIC_0065145,anterior torso,BCN_0003496,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028948.jpg,NV,ISIC_0028948,unknown,HAM_0001333,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070748.jpg,BCC,ISIC_0070748,anterior torso,BCN_0005260,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061079.jpg,MEL,ISIC_0061079,upper extremity,BCN_0001857,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031258.jpg,BCC,ISIC_0031258,posterior torso,HAM_0005971,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033975.jpg,MEL,ISIC_0033975,anterior torso,HAM_0003983,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068068.jpg,BCC,ISIC_0068068,anterior torso,BCN_0000056,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025904.jpg,MEL,ISIC_0025904,posterior torso,HAM_0006908,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063059.jpg,BCC,ISIC_0063059,head/neck,BCN_0003559,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060254.jpg,BCC,ISIC_0060254,anterior torso,BCN_0003606,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064916.jpg,NV,ISIC_0064916,anterior torso,BCN_0004565,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069261.jpg,BCC,ISIC_0069261,anterior torso,BCN_0004603,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072480.jpg,BCC,ISIC_0072480,anterior torso,BCN_0000629,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054673.jpg,MEL,ISIC_0054673,palms/soles,BCN_0004978,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069293.jpg,MEL,ISIC_0069293,head/neck,BCN_0001694,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030623.jpg,MEL,ISIC_0030623,anterior torso,HAM_0000871,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027461.jpg,NV,ISIC_0027461,posterior torso,HAM_0005017,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031403.jpg,NV,ISIC_0031403,anterior torso,HAM_0006421,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061076.jpg,BCC,ISIC_0061076,head/neck,BCN_0003841,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058611.jpg,BCC,ISIC_0058611,lower extremity,BCN_0001160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069073.jpg,NV,ISIC_0069073,anterior torso,BCN_0005028,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0012097_downsampled.jpg,NV,ISIC_0012097_downsampled,unknown,unknown_lesion_1240,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0010367.jpg,NV,ISIC_0010367,lower extremity,unknown_lesion_960,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059741.jpg,BCC,ISIC_0059741,head/neck,BCN_0000215,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031657.jpg,NV,ISIC_0031657,anterior torso,HAM_0003828,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070961.jpg,MEL,ISIC_0070961,anterior torso,BCN_0003725,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065739.jpg,BCC,ISIC_0065739,lower extremity,BCN_0003871,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031386.jpg,MEL,ISIC_0031386,posterior torso,HAM_0000417,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032528.jpg,NV,ISIC_0032528,posterior torso,HAM_0003945,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0010863.jpg,MEL,ISIC_0010863,posterior torso,unknown_lesion_1072,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065076.jpg,BCC,ISIC_0065076,lower extremity,BCN_0000032,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053659.jpg,MEL,ISIC_0053659,upper extremity,BCN_0001821,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055169.jpg,MEL,ISIC_0055169,palms/soles,BCN_0004110,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071612.jpg,MEL,ISIC_0071612,head/neck,BCN_0005161,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069035.jpg,NV,ISIC_0069035,anterior torso,BCN_0003653,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026719.jpg,NV,ISIC_0026719,lower extremity,HAM_0000602,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069595.jpg,MEL,ISIC_0069595,lower extremity,BCN_0000549,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058790.jpg,MEL,ISIC_0058790,anterior torso,BCN_0005438,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062008.jpg,NV,ISIC_0062008,anterior torso,BCN_0003651,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033020.jpg,BCC,ISIC_0033020,lower extremity,HAM_0001138,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054973.jpg,MEL,ISIC_0054973,anterior torso,BCN_0003725,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069574.jpg,BCC,ISIC_0069574,anterior torso,BCN_0001206,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069868.jpg,BCC,ISIC_0069868,head/neck,BCN_0002634,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030724.jpg,NV,ISIC_0030724,posterior torso,HAM_0000862,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060429.jpg,BCC,ISIC_0060429,anterior torso,BCN_0000629,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057011.jpg,NV,ISIC_0057011,anterior torso,BCN_0002487,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0007528_downsampled.jpg,NV,ISIC_0007528_downsampled,unknown,unknown_lesion_623,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030248.jpg,NV,ISIC_0030248,unknown,HAM_0006403,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053828.jpg,MEL,ISIC_0053828,anterior torso,BCN_0003725,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070933.jpg,MEL,ISIC_0070933,head/neck,BCN_0002152,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058236.jpg,NV,ISIC_0058236,anterior torso,BCN_0001329,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064805.jpg,BCC,ISIC_0064805,anterior torso,BCN_0003593,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026308.jpg,NV,ISIC_0026308,posterior torso,HAM_0005714,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0073028.jpg,BCC,ISIC_0073028,upper extremity,BCN_0004891,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0003805_downsampled.jpg,NV,ISIC_0003805_downsampled,unknown,unknown_lesion_577,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064570.jpg,BCC,ISIC_0064570,lower extremity,BCN_0000826,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067960.jpg,MEL,ISIC_0067960,anterior torso,BCN_0000667,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062356.jpg,BCC,ISIC_0062356,anterior torso,BCN_0002230,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027744.jpg,BCC,ISIC_0027744,upper extremity,HAM_0005309,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060414.jpg,BCC,ISIC_0060414,anterior torso,BCN_0003081,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025757.jpg,NV,ISIC_0025757,unknown,HAM_0000695,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070552.jpg,BCC,ISIC_0070552,upper extremity,BCN_0004891,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030328.jpg,NV,ISIC_0030328,posterior torso,HAM_0001334,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070958.jpg,BCC,ISIC_0070958,head/neck,BCN_0005287,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065671.jpg,MEL,ISIC_0065671,upper extremity,BCN_0001857,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013578_downsampled.jpg,MEL,ISIC_0013578_downsampled,unknown,MSK4_0010784,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054668.jpg,BCC,ISIC_0054668,anterior torso,BCN_0004967,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065666.jpg,BCC,ISIC_0065666,upper extremity,BCN_0004008,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031225.jpg,BCC,ISIC_0031225,anterior torso,HAM_0000352,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057070.jpg,NV,ISIC_0057070,upper extremity,BCN_0004421,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055919.jpg,NV,ISIC_0055919,anterior torso,BCN_0004007,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063316.jpg,NV,ISIC_0063316,lower extremity,BCN_0001732,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064122.jpg,MEL,ISIC_0064122,palms/soles,BCN_0004110,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024454.jpg,BCC,ISIC_0024454,lower extremity,HAM_0005180,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054151.jpg,MEL,ISIC_0054151,palms/soles,BCN_0003403,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063269.jpg,BCC,ISIC_0063269,anterior torso,BCN_0003159,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055081.jpg,MEL,ISIC_0055081,lower extremity,BCN_0001109,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064357.jpg,BCC,ISIC_0064357,upper extremity,BCN_0001030,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026282.jpg,BCC,ISIC_0026282,upper extremity,HAM_0005309,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032007.jpg,NV,ISIC_0032007,posterior torso,HAM_0007477,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0056921.jpg,MEL,ISIC_0056921,anterior torso,BCN_0003111,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060297.jpg,MEL,ISIC_0060297,lower extremity,BCN_0001109,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063053.jpg,NV,ISIC_0063053,anterior torso,BCN_0005712,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071672.jpg,BCC,ISIC_0071672,upper extremity,BCN_0003751,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0063599.jpg,BCC,ISIC_0063599,upper extremity,BCN_0004891,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057323.jpg,MEL,ISIC_0057323,head/neck,BCN_0005161,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067002.jpg,NV,ISIC_0067002,lower extremity,BCN_0004434,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065555.jpg,NV,ISIC_0065555,anterior torso,BCN_0001057,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064418.jpg,NV,ISIC_0064418,anterior torso,BCN_0000095,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060868.jpg,BCC,ISIC_0060868,head/neck,BCN_0005539,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033947.jpg,MEL,ISIC_0033947,head/neck,HAM_0005545,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072360.jpg,MEL,ISIC_0072360,palms/soles,BCN_0001078,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055460.jpg,MEL,ISIC_0055460,anterior torso,BCN_0000627,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028537.jpg,MEL,ISIC_0028537,posterior torso,HAM_0000856,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033735.jpg,NV,ISIC_0033735,unknown,HAM_0001433,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033679.jpg,MEL,ISIC_0033679,anterior torso,HAM_0003983,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068536.jpg,BCC,ISIC_0068536,anterior torso,BCN_0005260,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0054377.jpg,MEL,ISIC_0054377,head/neck,BCN_0004815,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055147.jpg,MEL,ISIC_0055147,anterior torso,BCN_0001082,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031614.jpg,BCC,ISIC_0031614,posterior torso,HAM_0006049,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070251.jpg,NV,ISIC_0070251,anterior torso,BCN_0002554,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028741.jpg,NV,ISIC_0028741,lower extremity,HAM_0003549,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027746.jpg,NV,ISIC_0027746,unknown,HAM_0003450,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0032535.jpg,MEL,ISIC_0032535,posterior torso,HAM_0006566,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0011135.jpg,MEL,ISIC_0011135,upper extremity,unknown_lesion_1114,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030640.jpg,NV,ISIC_0030640,head/neck,HAM_0007311,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0026283.jpg,NV,ISIC_0026283,unknown,HAM_0003654,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072603.jpg,BCC,ISIC_0072603,head/neck,BCN_0005539,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058631.jpg,BCC,ISIC_0058631,lower extremity,BCN_0004564,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013832_downsampled.jpg,MEL,ISIC_0013832_downsampled,posterior torso,MSK4_0010690,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059402.jpg,BCC,ISIC_0059402,anterior torso,BCN_0001206,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0033636.jpg,MEL,ISIC_0033636,unknown,HAM_0005500,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061290.jpg,BCC,ISIC_0061290,upper extremity,BCN_0001030,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0069098.jpg,MEL,ISIC_0069098,head/neck,BCN_0004815,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0065684.jpg,BCC,ISIC_0065684,lower extremity,BCN_0000032,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014743_downsampled.jpg,NV,ISIC_0014743_downsampled,posterior torso,unknown_lesion_1594,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0066716.jpg,MEL,ISIC_0066716,palms/soles,BCN_0001078,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031836.jpg,BCC,ISIC_0031836,anterior torso,HAM_0003600,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060153.jpg,MEL,ISIC_0060153,anterior torso,BCN_0001082,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057629.jpg,BCC,ISIC_0057629,anterior torso,BCN_0004858,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029481.jpg,NV,ISIC_0029481,lower extremity,HAM_0004421,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058819.jpg,BCC,ISIC_0058819,anterior torso,BCN_0001864,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055539.jpg,BCC,ISIC_0055539,head/neck,BCN_0005214,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071668.jpg,MEL,ISIC_0071668,anterior torso,BCN_0005525,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0059670.jpg,BCC,ISIC_0059670,anterior torso,BCN_0004603,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000487.jpg,MEL,ISIC_0000487,upper extremity,unknown_lesion_416,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067299.jpg,NV,ISIC_0067299,unknown,BCN_0000576,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030501.jpg,MEL,ISIC_0030501,posterior torso,HAM_0000887,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0067905.jpg,MEL,ISIC_0067905,anterior torso,BCN_0003725,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070714.jpg,BCC,ISIC_0070714,head/neck,BCN_0005214,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060007.jpg,BCC,ISIC_0060007,upper extremity,BCN_0003751,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0024901.jpg,NV,ISIC_0024901,lower extremity,HAM_0001606,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028575.jpg,NV,ISIC_0028575,unknown,HAM_0003528,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0013487_downsampled.jpg,NV,ISIC_0013487_downsampled,posterior torso,MSK4_0010432,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0030445.jpg,MEL,ISIC_0030445,posterior torso,HAM_0003031,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025615.jpg,NV,ISIC_0025615,anterior torso,HAM_0006568,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0011085.jpg,NV,ISIC_0011085,upper extremity,unknown_lesion_1079,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055886.jpg,BCC,ISIC_0055886,head/neck,BCN_0000701,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062693.jpg,NV,ISIC_0062693,anterior torso,BCN_0003534,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0055179.jpg,MEL,ISIC_0055179,head/neck,BCN_0005161,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0060168.jpg,BCC,ISIC_0060168,head/neck,BCN_0004515,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0028685.jpg,MEL,ISIC_0028685,posterior torso,HAM_0006423,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072917.jpg,MEL,ISIC_0072917,anterior torso,BCN_0004264,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071892.jpg,MEL,ISIC_0071892,upper extremity,BCN_0002287,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0053858.jpg,BCC,ISIC_0053858,head/neck,BCN_0000461,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071719.jpg,NV,ISIC_0071719,anterior torso,BCN_0004471,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0000469.jpg,MEL,ISIC_0000469,upper extremity,unknown_lesion_399,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025595.jpg,NV,ISIC_0025595,upper extremity,HAM_0000192,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025766.jpg,MEL,ISIC_0025766,lower extremity,HAM_0003869,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068415.jpg,BCC,ISIC_0068415,anterior torso,BCN_0000213,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0027921.jpg,NV,ISIC_0027921,lower extremity,HAM_0003547,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072924.jpg,MEL,ISIC_0072924,lower extremity,BCN_0005160,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0071051.jpg,NV,ISIC_0071051,head/neck,BCN_0000443,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0057999.jpg,MEL,ISIC_0057999,anterior torso,BCN_0004264,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0031160.jpg,NV,ISIC_0031160,upper extremity,HAM_0000068,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058895.jpg,NV,ISIC_0058895,anterior torso,BCN_0005039,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0062944.jpg,MEL,ISIC_0062944,palms/soles,BCN_0004978,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0064036.jpg,NV,ISIC_0064036,lower extremity,BCN_0002257,0.5
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0014059_downsampled.jpg,MEL,ISIC_0014059_downsampled,lateral torso,MSK4_0010916,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0058139.jpg,NV,ISIC_0058139,anterior torso,BCN_0005324,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0070165.jpg,BCC,ISIC_0070165,anterior torso,BCN_0003606,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0029765.jpg,NV,ISIC_0029765,unknown,HAM_0005348,0.6
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0072485.jpg,NV,ISIC_0072485,palms/soles,BCN_0001990,0.9
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0015139_downsampled.jpg,NV,ISIC_0015139_downsampled,posterior torso,unknown_lesion_1815,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0061270.jpg,BCC,ISIC_0061270,anterior torso,BCN_0003115,0.7
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0068768.jpg,MEL,ISIC_0068768,head/neck,BCN_0001694,0.8
+/content/drive/MyDrive/DermaSight-DS/isic_2019/ISIC_2019_Training_Input/ISIC_2019_Training_Input/ISIC_0025311.jpg,NV,ISIC_0025311,unknown,HAM_0001594,0.6
