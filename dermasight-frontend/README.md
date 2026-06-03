@@ -8,7 +8,6 @@ DermaSight is an intelligent web application designed for early detection and se
 - [Design System](#design-system)
 - [Project Architecture](#project-architecture)
 - [Getting Started](#getting-started)
-- [Knowledge Graph (Graphify)](#knowledge-graph-graphify)
 
 ## Features
 - **Skin Image Scan:** Users can upload a photo of a skin lesion for initial disease classification.
